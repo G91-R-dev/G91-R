@@ -6,7 +6,7 @@ Original work Copyright (c) 2018-2021 Adriano Bassignana (abassign)
 
 <PropertyList>
 
-    <path>Aircraft/G91-R1B_HD/Models/Parts/Common/lg_model_02.ac</path>
+    <path>Models/Parts/Common/lg_model_02.ac</path>
 
     <animation>
         <type>noshadow</type>
@@ -269,7 +269,7 @@ Original work Copyright (c) 2018-2021 Adriano Bassignana (abassign)
             </greater-than-equals>
         </condition>
         <name>pb_light_effect</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_blue.xml</path>
+        <path>Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_blue.xml</path>
         <offsets>
             <x-m> 0.045</x-m>
             <y-m> 0.00 </y-m>

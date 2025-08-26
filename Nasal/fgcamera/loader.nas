@@ -5,7 +5,7 @@ var modules_obj = {};
 var modules_list = ["fgcamera","version","gui","commands","io","view_movement","DHM","RND_","headtracker","offsets_manager"];
 
 var load_nasal = func (debugLevel) {
-    var path = getprop("/sim/fg-aircraft") ~ "/G91-R1B_HD";
+    var path = getprop("/sim/fg-aircraft") ~ "/G91-R1";
     ## print(debug.dump(modules_obj));
 	foreach (var script; modules_list) {
         if (modules_loaded == 0) {

@@ -3,7 +3,7 @@
 <PropertyList>
     
     <path>LandingGearFrontal.ac</path>
-    <texture-path>Aircraft/G91-R1B_HD/Models/Liveries</texture-path>
+    <texture-path>Models/Liveries</texture-path>
     
     <offsets>
         <x-m>0.0</x-m>
@@ -178,7 +178,7 @@
     <!-- Material assignment -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_001</inherits-from>
+        <inherits-from>Models/Liveries/liveries_001</inherits-from>
         <object-name>gear_door_dx.001</object-name>
         <object-name>gear_door_sx.000</object-name>
         <object-name>PlanLight.front.001</object-name>
@@ -211,13 +211,13 @@
     <!-- Chrome Effects on materials -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_silver_D2_1</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_silver_D2_1</inherits-from>
         <object-name>gear-front-jack-02</object-name>
         <object-name>Cylinder.005</object-name>
     </effect>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_chrome</inherits-from>
         <object-name>Light_dx.001</object-name>
         <object-name>Light_dx.002</object-name>
         <object-name>Light_sx.reflectivepart</object-name>

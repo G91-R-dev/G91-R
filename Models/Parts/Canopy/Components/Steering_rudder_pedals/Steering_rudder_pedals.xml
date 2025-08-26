@@ -84,7 +84,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_chrome</inherits-from>
         <object-name>pedal side dx (Meshed)</object-name>
         <object-name>pedal side sx (Meshed)</object-name>
         <object-name>octagon (Meshed)</object-name>

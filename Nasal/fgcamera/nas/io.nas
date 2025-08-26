@@ -11,7 +11,7 @@ var load_cameras = func {
 
 	if (dir == nil) { # FIX! (use more appropriate assumption)
 		##path = getprop("/sim/fg-root") ~ "/Nasal/fgcamera";
-        path = getprop("/sim/fg-aircraft") ~ "/G91-R1B_HD" ~ "/Nasal/fgcamera";
+        path = getprop("/sim/fg-aircraft") ~ "/G91-R" ~ "/Nasal/fgcamera";
 		file = "default-cameras.xml";
 
 		setF = 1;

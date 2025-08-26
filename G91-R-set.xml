@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+<author name="Adriano Bassignana" />
+<copyright name="Adriano Bassignana" />
+<license type="GPL">GNU/GPLv2+ http://www.gnu.org/licenses/gpl-2.0.html</license>
+-->
+
+<PropertyList include="G91-R-common.xml">
+    
+    <sim>
+        
+        <description>Fiat G91-R (JSBSim)</description>
+        
+        <startup>
+            <splash-texture>Splash/splash 20100720.png</splash-texture>
+            <splash-texture>Splash/splash 20100723.png</splash-texture>
+            <splash-texture>Splash/splash 20100724.png</splash-texture>
+            <splash-texture>Splash/splash 20100725.jpg</splash-texture>
+            <splash-texture>Splash/splash 20100726.png</splash-texture>
+        </startup>
+        
+        <flight-model>jsb</flight-model>
+        <!-- JSBSim start file -->
+        <aero>G91-R-JSBSim</aero>
+        <model>
+            <path>Models/G91-R.xml</path>
+        </model>
+
+        <!-- INIZIO BLOCCO PREVIEWS -->
+        <previews>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splash/splash 20100720.png</path>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splash/splash 20100723.png</path>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splash/splash 20100724.png</path>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splash/splash 20100725.jpg</path>
+            </preview>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Splash/splash 20100726.png</path>
+            </preview>
+        </previews>
+        <!-- FINE BLOCCO PREVIEWS -->
+
+        <G91>
+            <testing>
+                <level type="int">0</level>
+                <log type="int">0</log>
+            </testing>
+            <models>
+                <active>
+                    <cockpit type="int">1</cockpit>
+                    <canopy type="int">1</canopy>
+                    <fuselage type="int">1</fuselage>
+                    <turbojet type="int">1</turbojet>
+                    <stores type="int">1</stores>
+                    <accessories type="int">1</accessories>
+                </active>
+                <effects>
+                    <als type="int">1</als>
+                </effects>
+            </models>
+            <pilot-assistant>
+                <autostart type="int">0</autostart>
+            </pilot-assistant>
+        </G91>
+
+    </sim>
+
+    <engines>
+        <engine n="0">
+            <running>false</running>
+        </engine>
+    </engines>
+
+</PropertyList>

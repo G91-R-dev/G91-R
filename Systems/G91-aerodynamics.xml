@@ -310,9 +310,9 @@ Changes by Joshua Davidson (it0uchpods) for stability, and fix some reversed sig
         </function>
     </axis>
     
-    <property value="-0.5112">aero/constant/Roll_damp-coefficient</property>
+    <property value="-0.80">aero/constant/Roll_damp-coefficient</property>
     <property value="0.0876">aero/constant/Roll_yaw-coefficient</property>
-    <property value="0.180">aero/constant/Roll_aileron-coefficient</property>
+    <property value="0.181">aero/constant/Roll_aileron-coefficient</property>
     <property value="-0.01141">aero/constant/Roll_rudder-coefficient</property>
     
     <axis name="ROLL">
@@ -485,10 +485,10 @@ Changes by Joshua Davidson (it0uchpods) for stability, and fix some reversed sig
         
     </axis>
     
-    <property value="0.0654">aero/constant/Yaw_beta-coefficient</property>
-    <property value="-0.4112">aero/constant/Yaw_damp-coefficient</property>
-    <property value="-0.0564">aero/constant/Yaw_rudder-coefficient</property>
-    <property value="0.0152">aero/constant/Yaw_aileron-coefficient</property>
+    <property value="0.0754">aero/constant/Yaw_beta-coefficient</property>
+    <property value="-0.55">aero/constant/Yaw_damp-coefficient</property>
+    <property value="-0.0464">aero/constant/Yaw_rudder-coefficient</property>
+    <property value="0.001">aero/constant/Yaw_aileron-coefficient</property>
     
     <axis name="YAW">
         <function name="aero/moment/Yaw_beta">

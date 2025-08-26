@@ -10,7 +10,7 @@
     
     <!--
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_black_00</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_black_00</inherits-from>
         <object-name>body (Meshed)</object-name>
         <object-name>supporto (Meshed)</object-name>
         <object-name>martinetto_fisso (Meshed)</object-name>
@@ -27,7 +27,7 @@
     -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_silver_D5_0</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_silver_D5_0</inherits-from>
         <texture>martinetto_mobile (Meshed)</texture>
     </effect>
     

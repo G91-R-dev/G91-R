@@ -19,7 +19,7 @@
     </animation>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_002</inherits-from>
+        <inherits-from>Models/Liveries/liveries_002</inherits-from>
         <object-name>PAN_tank_sx.004</object-name>
         <object-name>PAN_tank_sx_003</object-name>
     </effect>

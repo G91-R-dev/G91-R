@@ -4,7 +4,7 @@
 
     <!--
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_black_00</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_black_00</inherits-from>
         <object-name>box</object-name>
         <object-name>prism_1</object-name>
         <object-name>prism_2</object-name>

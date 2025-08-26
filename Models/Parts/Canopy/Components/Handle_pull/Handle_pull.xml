@@ -10,7 +10,7 @@
     </offsets>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Handle_pull/handle_brake/handle_brake.xml</path>
+        <path>Models/Parts/Canopy/Components/Handle_pull/handle_brake/handle_brake.xml</path>
         <offsets>
             <x-m>-3.25394</x-m>
             <y-m>0.18986</y-m>
@@ -19,7 +19,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Handle_pull/handle_dragchute/handle_dragchute.xml</path>
+        <path>Models/Parts/Canopy/Components/Handle_pull/handle_dragchute/handle_dragchute.xml</path>
         <offsets>
             <x-m>-3.27354</x-m>
             <y-m>-0.17834</y-m>
@@ -28,7 +28,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Handle_pull/handle_stores/handle_stores.xml</path>
+        <path>Models/Parts/Canopy/Components/Handle_pull/handle_stores/handle_stores.xml</path>
         <offsets>
             <x-m>-3.27051</x-m>
             <y-m>-0.08726</y-m>
@@ -37,7 +37,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Dx.xml</path>
+        <path>Models/Parts/Canopy/Components/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Dx.xml</path>
         <offsets>
             <x-m>-3.28</x-m>
             <y-m>0.284</y-m>
@@ -49,7 +49,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Sx.xml</path>
+        <path>Models/Parts/Canopy/Components/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Sx.xml</path>
         <offsets>
             <x-m>-3.28</x-m>
             <y-m>-0.284</y-m>

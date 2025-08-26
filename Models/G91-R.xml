@@ -17,7 +17,7 @@
             var aModuleId = 1 + _module_id;
             setprop("sim/G91/liveries/active/set-target-module-id",aModuleId);
             setprop("sim/G91/liveries/active/set-target-path",cmdarg().getPath());
-            print("***** G91-R1B in multiplayer the value sim/G91/liveries/active/target_module_id: ",aModuleId, " path: ",cmdarg().getPath());
+            print("***** G91-R in multiplayer the value sim/G91/liveries/active/target_module_id: ",aModuleId, " path: ",cmdarg().getPath());
             
             var rplayer = cmdarg();
             print("***** cmdarg: ",cmdarg().getPath(), " has been changed to ", cmdarg().getValue());
@@ -42,6 +42,46 @@
             rplayer.getNode("sim/G91/liveries/active/diffuse", 1).alias(rplayer.getNode("sim/multiplay/generic/float[20]"));
             rplayer.getNode("sim/G91/liveries/active/specular", 1).alias(rplayer.getNode("sim/multiplay/generic/float[21]"));
             
+            rplayer.getNode("sim/G91/canopy/position", 1).alias(rplayer.getNode("sim/multiplay/generic/float[15]"));
+
+            rplayer.getNode("sim/G91/stores/stations/sx/external/type", 1).alias(rplayer.getNode("sim/multiplay/generic/float[16]"));
+            rplayer.getNode("sim/G91/stores/stations/sx/internal/type", 1).alias(rplayer.getNode("sim/multiplay/generic/float[17]"));
+            rplayer.getNode("sim/G91/stores/stations/dx/external/type", 1).alias(rplayer.getNode("sim/multiplay/generic/float[18]"));
+            rplayer.getNode("sim/G91/stores/stations/dx/internal/type", 1).alias(rplayer.getNode("sim/multiplay/generic/float[19]"));
+
+            rplayer.getNode("sim/G91/stores/stations/stationSxInternal/typeHardpoint", 1).alias(rplayer.getNode("sim/multiplay/generic/float[22]"));
+            rplayer.getNode("sim/G91/stores/stations/stationDxInternal/typeHardpoint", 1).alias(rplayer.getNode("sim/multiplay/generic/float[23]"));
+            rplayer.getNode("sim/G91/stores/stations/stationSxExternal/typeHardpoint", 1).alias(rplayer.getNode("sim/multiplay/generic/float[24]"));
+            rplayer.getNode("sim/G91/stores/stations/stationDxExternal/typeHardpoint", 1).alias(rplayer.getNode("sim/multiplay/generic/float[25]"));
+
+            rplayer.getNode("sim/G91/stores/stations/stationSxInternal/armyTypeFuse", 1).alias(rplayer.getNode("sim/multiplay/generic/string[11]"));
+            rplayer.getNode("sim/G91/stores/stations/stationSxInternal/armyTypeSpecial", 1).alias(rplayer.getNode("sim/multiplay/generic/string[12]"));
+            rplayer.getNode("sim/G91/stores/stations/stationDxInternal/armyTypeFuse", 1).alias(rplayer.getNode("sim/multiplay/generic/string[13]"));
+            rplayer.getNode("sim/G91/stores/stations/stationDxInternal/armyTypeSpecial", 1).alias(rplayer.getNode("sim/multiplay/generic/string[14]")); 
+            rplayer.getNode("sim/G91/stores/stations/stationSxExternal/armyTypeFuse", 1).alias(rplayer.getNode("sim/multiplay/generic/string[15]"));
+            rplayer.getNode("sim/G91/stores/stations/stationSxExternal/armyTypeSpecial", 1).alias(rplayer.getNode("sim/multiplay/generic/string[16]")); 
+            rplayer.getNode("sim/G91/stores/stations/stationDxExternal/armyTypeFuse", 1).alias(rplayer.getNode("sim/multiplay/generic/string[17]"));
+            rplayer.getNode("sim/G91/stores/stations/stationDxExternal/armyTypeSpecial", 1).alias(rplayer.getNode("sim/multiplay/generic/string[18]"));
+
+            rplayer.getNode("sim/G91/gear/unit[0]/nws", 1).alias(rplayer.getNode("sim/multiplay/generic/float[26]"));
+            rplayer.getNode("sim/G91/gear/unit[0]/wheel-speed-fps", 1).alias(rplayer.getNode("sim/multiplay/generic/float[27]"));
+            rplayer.getNode("sim/G91/gear/unit[0]/compression-ft", 1).alias(rplayer.getNode("sim/multiplay/generic/float[28]"));
+
+            rplayer.getNode("sim/G91/airbrake/speedbrake-pos-norm", 1).alias(rplayer.getNode("sim/multiplay/generic/float[29]"));
+
+            rplayer.getNode("sim/G91/control-surfaces/left-aileron-pos-deg", 1).alias(rplayer.getNode("sim/multiplay/generic/float[30]"));
+            rplayer.getNode("sim/G91/control-surfaces/right-aileron-pos-deg", 1).alias(rplayer.getNode("sim/multiplay/generic/float[31]"));
+
+            rplayer.getNode("sim/G91/control-surfaces/pitch-deg", 1).alias(rplayer.getNode("sim/multiplay/generic/float[32]"));
+            rplayer.getNode("sim/G91/control-surfaces/rudder-deg", 1).alias(rplayer.getNode("sim/multiplay/generic/float[33]"));
+
+            rplayer.getNode("sim/G91/dragchute/beta-deg", 1).alias(rplayer.getNode("sim/multiplay/generic/float[34]"));
+            rplayer.getNode("sim/G91/dragchute/alpha-deg", 1).alias(rplayer.getNode("sim/multiplay/generic/float[35]"));
+            rplayer.getNode("sim/G91/dragchute/open-big-chute", 1).alias(rplayer.getNode("sim/multiplay/generic/float[36]"));
+            rplayer.getNode("sim/G91/dragchute/open-little-chute", 1).alias(rplayer.getNode("sim/multiplay/generic/float[37]"));
+            rplayer.getNode("sim/G91/dragchute/door-chute", 1).alias(rplayer.getNode("sim/multiplay/generic/float[38]"));
+            rplayer.getNode("sim/G91/dragchute/active", 1).alias(rplayer.getNode("sim/multiplay/generic/int[7]"));
+
             var import = func (file, module) {
                 file = string.normpath(file);
                 var local_file = globals.io.dirname(caller()[2]) ~ file;
@@ -53,14 +93,14 @@
             var set_livery_loaded = getprop("sim/G91/liveries/active/set-livery-loaded");
             if (set_livery_loaded == nil or set_livery_loaded == 0) {
                 setprop("sim/G91/liveries/active/set-livery-loaded",1);
-                import("Aircraft/G91-R1B_HD/Nasal/set_livery.nas","set_livery");
+                import("Nasal/set_livery.nas","set_livery");
             }
             
         ]]></load>
         <unload><![CDATA[
             var aModuleId = 1 + _module_id;
             setprop("sim/G91/liveries/active/del-target-module-id",aModuleId);
-            print("***** G91-R1B remove from multiplayer the value sim/G91/liveries/active/target_module_id: ",aModuleId);
+            print("***** G91-R remove from multiplayer the value sim/G91/liveries/active/target_module_id: ",aModuleId);
         ]]></unload>
     </nasal>
     
@@ -69,7 +109,7 @@
     -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Cockpit.xml</path>
+        <path>Models/Parts/Cockpit/Cockpit.xml</path>
         <!--
         <condition>
             <property>sim/aircraft-is-singleplayer</property>
@@ -78,47 +118,47 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Canopy.xml</path>
+        <path>Models/Parts/Canopy/Canopy.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Wing.xml</path>
+        <path>Models/Parts/Wing/Wing.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Tail/Tail.xml</path>
+        <path>Models/Parts/Tail/Tail.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/LandingGearFrontal/LandingGearFrontal.xml</path>
+        <path>Models/Parts/LandingGearFrontal/LandingGearFrontal.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Fuselage_A/Fuselage_A0.xml</path>
+        <path>Models/Parts/Fuselage_A/Fuselage_A0.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Fuselage_B/Fuselage_B1.xml</path>
+        <path>Models/Parts/Fuselage_B/Fuselage_B1.xml</path>
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Fuselage_B/Fuselage_B3.xml</path>
+        <path>Models/Parts/Fuselage_B/Fuselage_B3.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Airbrake/Airbrake.xml</path>
+        <path>Models/Parts/Airbrake/Airbrake.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Turbojet/OrpheusMK803.xml</path>
+        <path>Models/Parts/Turbojet/OrpheusMK803.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Stores.xml</path>
+        <path>Models/Parts/Stores/Stores.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Accessories/Accessories.xml</path>
+        <path>Models/Parts/Accessories/Accessories.xml</path>
         <condition>
             <property>sim/aircraft-is-singleplayer</property>
         </condition>
@@ -127,7 +167,7 @@
     <!-- Compositor lights -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Composer/external-taxing-light-dx.xml</path>
+        <path>Models/Parts/Composer/external-taxing-light-dx.xml</path>
         <condition>
             <or>
                 <greater-than>
@@ -139,7 +179,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Composer/external-taxing-light-diffuse-dx.xml</path>
+        <path>Models/Parts/Composer/external-taxing-light-diffuse-dx.xml</path>
         <condition>
             <and>
                 <or>
@@ -161,7 +201,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Composer/external-landig-light-sx.xml</path>
+        <path>Models/Parts/Composer/external-landig-light-sx.xml</path>
         <condition>
             <or>
                 <greater-than>
@@ -173,7 +213,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Composer/external-wheels-light.xml</path>
+        <path>Models/Parts/Composer/external-wheels-light.xml</path>
         <condition>
             <or>
                 <greater-than>
@@ -191,7 +231,7 @@
     <!-- Canopy internal lights -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Composer/canopy-ambient-gray-specular.xml</path>
+        <path>Models/Parts/Composer/canopy-ambient-gray-specular.xml</path>
         <condition>
             <and>
                 <greater-than>

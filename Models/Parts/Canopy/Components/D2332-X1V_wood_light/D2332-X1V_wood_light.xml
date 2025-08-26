@@ -528,7 +528,7 @@
         <object-name>CanopyGroup</object-name>
         <object-name>canopy-uv-dx</object-name>
         <object-name>canopy-uv-sx</object-name>
-        <property>fdm/jsbsim/systems/canopy/position</property>
+        <property>sim/G91/canopy/position</property>
         <factor>45</factor>
         <center>
             <x-m>-1.50104</x-m>
@@ -541,5 +541,5 @@
             <z>0</z>
         </axis>
     </animation>
-    
+
 </PropertyList>

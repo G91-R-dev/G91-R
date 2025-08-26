@@ -13,7 +13,7 @@
     <property value="1.0">systems/airbrake/position_max</property>
     <property value="4.0">systems/airbrake/jack-section</property>
     <property value="10.0">systems/airbrake/jack-stroke</property>
-    <property value="0.0">systems/airbrake/speedbrake-pos-norm</property>
+    <!--property value="0.0">systems/airbrake/speedbrake-pos-norm</property-->
     <property value="0.0">systems/airbrake/induced-turbulence</property>
     <property value="0.002">systems/airbrake/induced-turbulence-intensity</property>
     <property value="8.0">systems/airbrake/induced-turbulence-lag-C1</property>

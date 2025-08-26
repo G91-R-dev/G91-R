@@ -76,8 +76,8 @@ var Lemir14Light = {
             if (typeOfLemir == 0) {
                 me.node = {
                     "type": "static",
-                    "model":"Aircraft/G91-R1B_HD/Models/Parts/Accessories/LEMIR14.xml",
-                    "model-lowres":"Aircraft/G91-R1B_HD/Models/Parts/Accessories/LEMIR14.xml",
+                    "model":"Models/Parts/Accessories/LEMIR14.xml",
+                    "model-lowres":"Models/Parts/Accessories/LEMIR14.xml",
                     "latitude": me.position.lat(),
                     "longitude": me.position.lon(),
                     "altitude": alt*M2FT,
@@ -87,8 +87,8 @@ var Lemir14Light = {
             } else {
                 me.node = {
                     "type": "static",
-                    "model":"Aircraft/G91-R1B_HD/Models/Parts/Accessories/LEMIR-Cone.xml",
-                    "model-lowres":"Aircraft/G91-R1B_HD/Models/Parts/Accessories/LEMIR-Cone.xml",
+                    "model":"Models/Parts/Accessories/LEMIR-Cone.xml",
+                    "model-lowres":"Models/Parts/Accessories/LEMIR-Cone.xml",
                     "latitude": me.position.lat(),
                     "longitude": me.position.lon(),
                     "altitude": alt*M2FT,

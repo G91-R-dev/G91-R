@@ -93,7 +93,7 @@
     </animation>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Ext_Int_Pressure_Gauge/Ext_Int_Pressure_Gauge.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Ext_Int_Pressure_Gauge/Ext_Int_Pressure_Gauge.xml</path>
         <offsets>
             <x-m>-0.4145</x-m>
             <y-m>-0.1055</y-m>
@@ -105,7 +105,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Bendix_2894_10A/Bendix_2984_10A.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Bendix_2894_10A/Bendix_2984_10A.xml</path>
         <offsets>
             <x-m>-0.3825</x-m>
             <y-m>-0.0510</y-m>
@@ -117,7 +117,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Radio_Compass/ADF-Marconi-8283.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Radio_Compass/ADF-Marconi-8283.xml</path>
         <offsets>
             <x-m>-0.3125</x-m>
             <y-m>-0.0510</y-m>
@@ -129,7 +129,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/ATC_Transponder/ATC_cna62B.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/ATC_Transponder/ATC_cna62B.xml</path>
         <offsets>
             <x-m>-0.1575</x-m>
             <y-m>-0.1245</y-m>
@@ -141,7 +141,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/PHI/PHI Station Selector.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/PHI/PHI Station Selector.xml</path>
         <offsets>
             <x-m>-0.1285</x-m>
             <y-m>-0.0510</y-m>
@@ -153,7 +153,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/ATC_Transponder/IFF_cna62B.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/ATC_Transponder/IFF_cna62B.xml</path>
         <offsets>
             <x-m>-0.029</x-m>
             <y-m>-0.1245</y-m>
@@ -165,7 +165,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Lighting/lighting_panel.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Lighting/lighting_panel.xml</path>
         <offsets>
             <x-m>0.0</x-m>
             <y-m>0.0</y-m>
@@ -177,7 +177,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Gyro_Compass_start/gyro_compass_start.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Gyro_Compass_start/gyro_compass_start.xml</path>
         <offsets>
             <x-m>0.000</x-m>
             <y-m>0.0</y-m>
@@ -189,7 +189,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Doppler_ground_test/doppler_ground_test.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Doppler_ground_test/doppler_ground_test.xml</path>
         <offsets>
             <x-m>-0.360</x-m>
             <y-m>-0.027</y-m>
@@ -201,7 +201,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Air_Conditioning/air_conditioning.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Air_Conditioning/air_conditioning.xml</path>
         <offsets>
             <x-m>0.000</x-m>
             <y-m>0.0</y-m>
@@ -213,7 +213,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Breaker_system/breaker_panel.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Breaker_system/breaker_panel.xml</path>
         <offsets>
             <x-m>0.000</x-m>
             <y-m>0.0</y-m>

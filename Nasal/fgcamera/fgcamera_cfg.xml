@@ -339,9 +339,9 @@
 				<front-right-direction-deg type="double">315</front-right-direction-deg>
 				<dynamic-view type="bool">true</dynamic-view>
 
-				<x-offset-m archive="y">0</x-offset-m>
-				<y-offset-m archive="y">-0.15</y-offset-m>
-				<z-offset-m archive="y">0.6</z-offset-m>
+				<x-offset-m archive="y" type="double">0</x-offset-m>
+				<y-offset-m archive="y" type="double">-0.15</y-offset-m>
+				<z-offset-m archive="y" type="double">0.6</z-offset-m>
 				<pitch-offset-deg>-8</pitch-offset-deg>
 			</config>
 		</view>

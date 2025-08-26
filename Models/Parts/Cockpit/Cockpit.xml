@@ -522,7 +522,7 @@
     <!-- Components -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Components/Gear_lever/Gear_lever_als.xml</path>
+        <path>Models/Parts/Cockpit/Components/Gear_lever/Gear_lever_als.xml</path>
         <offsets>
             <x-m>0.010</x-m>
             <y-m>-0.276</y-m>
@@ -534,7 +534,7 @@
     <!-- Gauges -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Altimeter/Altimeter.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Altimeter/Altimeter.xml</path>
         <offsets>
             <x-m>0.014</x-m>
             <y-m>-0.114</y-m>
@@ -550,7 +550,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/AAU-37A/AAU-37A.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/AAU-37A/AAU-37A.xml</path>
         <offsets>
             <x-m>0.020</x-m>
             <y-m>-0.115</y-m>
@@ -566,7 +566,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/ADF_8720/ADF_8720.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/ADF_8720/ADF_8720.xml</path>
         <offsets>
             <x-m>0.006</x-m>
             <y-m>-0.186</y-m>
@@ -582,7 +582,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/ID-249-ARN.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/ID-249-ARN.xml</path>
         <offsets>
             <x-m>0.016</x-m>
             <y-m>-0.189</y-m>
@@ -600,7 +600,7 @@
     <!-- Old anemometer version -->
     <!--
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Kollsman_ME4/Kollsman_ME4.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Kollsman_ME4/Kollsman_ME4.xml</path>
         <offsets>
             <x-m>0.019</x-m>
             <y-m>-0.101</y-m>
@@ -617,7 +617,7 @@
     -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Kollsman AVU-8-B/Kollsman AVU-8-B.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Kollsman AVU-8-B/Kollsman AVU-8-B.xml</path>
         <offsets>
             <x-m>0.019</x-m>
             <y-m>-0.101</y-m>
@@ -627,7 +627,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Allen_MD-1A_Turn_Ind/Allen_MD-1A_Turn_Ind_01.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Allen_MD-1A_Turn_Ind/Allen_MD-1A_Turn_Ind_01.xml</path>
         <offsets>
             <x-m>0.020</x-m>
             <y-m>-0.039</y-m>
@@ -637,7 +637,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Waltham_A-13A_Clock/Waltham_A-13A.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Waltham_A-13A_Clock/Waltham_A-13A.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.026</y-m>
@@ -647,7 +647,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/MS-33678-3P/MS-33678-3P-1.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/MS-33678-3P/MS-33678-3P-1.xml</path>
         <offsets>
             <x-m>0.009</x-m>
             <y-m>-0.2695</y-m>
@@ -657,7 +657,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/MS-33678-3P/MS-33678-3P-2.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/MS-33678-3P/MS-33678-3P-2.xml</path>
         <offsets>
             <x-m>0.009</x-m>
             <y-m>-0.282</y-m>
@@ -667,7 +667,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/MS-33678-3P/MS-33678-3P-3.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/MS-33678-3P/MS-33678-3P-3.xml</path>
         <offsets>
             <x-m>0.009</x-m>
             <y-m>-0.256</y-m>
@@ -677,7 +677,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Kollsman_Climb_25363/Kollsman_Climb_25363.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Kollsman_Climb_25363/Kollsman_Climb_25363.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.090</y-m>
@@ -687,7 +687,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Bendix_B6_3419_5A_A1_Acc/Bendix_B6_3419_5A_A1_Acc.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Bendix_B6_3419_5A_A1_Acc/Bendix_B6_3419_5A_A1_Acc.xml</path>
         <offsets>
             <x-m>0.020</x-m>
             <y-m>-0.193</y-m>
@@ -703,7 +703,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Bendix_B6_3419_5A_A1_Acc/Bendix_B6_3419_5A_A1_Acc.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Bendix_B6_3419_5A_A1_Acc/Bendix_B6_3419_5A_A1_Acc.xml</path>
         <offsets>
             <x-m>0.020</x-m>
             <y-m>-0.196</y-m>
@@ -719,7 +719,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/J8/J8.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/J8/J8.xml</path>
         <offsets>
             <x-m>0.025</x-m>
             <y-m>0.112</y-m>
@@ -735,7 +735,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/MM2/MM2.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/MM2/MM2.xml</path>
         <offsets>
             <x-m>0.025</x-m>
             <y-m>0.112</y-m>
@@ -751,7 +751,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/PHI/PHI-Indicator.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/PHI/PHI-Indicator.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.000</y-m>
@@ -761,7 +761,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/PHI/PHI-Wind.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/PHI/PHI-Wind.xml</path>
         <offsets>
             <x-m>0.007</x-m>
             <y-m>-0.188</y-m>
@@ -771,7 +771,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/RPM_Indicator/RPM_Indicator.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/RPM_Indicator/RPM_Indicator.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.198</y-m>
@@ -781,7 +781,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Jet_Temperature/Jet_Temperature.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Jet_Temperature/Jet_Temperature.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.196</y-m>
@@ -791,7 +791,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Fuel_Pounds/Fuel_Pounds.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Fuel_Pounds/Fuel_Pounds.xml</path>
         <offsets>
             <x-m>0.016</x-m>
             <y-m>0.196</y-m>
@@ -801,7 +801,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/AN_3203_voltmeter/AN_3203_voltmeter.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/AN_3203_voltmeter/AN_3203_voltmeter.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.295</y-m>
@@ -811,7 +811,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Roller-Smith_90702_J1_Amperometer/Roller-Smith_90702_J1_Amperometer.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Roller-Smith_90702_J1_Amperometer/Roller-Smith_90702_J1_Amperometer.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.355</y-m>
@@ -821,7 +821,7 @@
     </model>
    
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Pressure_Gauge/Pressure_Gauge.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Pressure_Gauge/Pressure_Gauge.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.194</y-m>
@@ -831,7 +831,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Pressure_Gauge_Emergency/Pressure_Gauge_Emergency.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Pressure_Gauge_Emergency/Pressure_Gauge_Emergency.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.130</y-m>
@@ -841,7 +841,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Flap_Extended/Flap_Extended.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Flap_Extended/Flap_Extended.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>-0.123</y-m>
@@ -851,7 +851,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Airbrake_Extended/Airbrake_Extended.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Airbrake_Extended/Airbrake_Extended.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>-0.123</y-m>
@@ -861,7 +861,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Trim_Indicator/Trim_indicator.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Trim_Indicator/Trim_indicator.xml</path>
         <offsets>
             <x-m>0.010</x-m>
             <y-m>-0.088</y-m>
@@ -871,7 +871,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Fire/Fire.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/Fire/Fire.xml</path>
         <offsets>
             <x-m>0.005</x-m>
             <y-m>0.298</y-m>
@@ -881,7 +881,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins_331_C4.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins_331_C4.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>0.0</y-m>
@@ -909,7 +909,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins 331C-4-TACAN-Frontal.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins 331C-4-TACAN-Frontal.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>0.0</y-m>
@@ -937,7 +937,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins_331_C4.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins_331_C4.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>-0.018</y-m>
@@ -965,7 +965,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins 331C-4-VOR-MBT-Frontal.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins 331C-4-VOR-MBT-Frontal.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>-0.000</y-m>
@@ -993,7 +993,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Frontal-146-DCU.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Frontal-146-DCU.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>0.0</y-m>
@@ -1009,7 +1009,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/NAV_arn_21_C866.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/NAV_arn_21_C866.xml</path>
         <offsets>
             <x-m>0.006</x-m>
             <y-m>0.0</y-m>
@@ -1029,7 +1029,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/AN_ARN-82.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/AN_ARN-82.xml</path>
         <offsets>
             <x-m>0.006</x-m>
             <y-m>0.0</y-m>
@@ -1051,7 +1051,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins_C_866_XN10.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Collins_C_866_XN10.xml</path>
         <offsets>
             <x-m>0.006</x-m>
             <y-m>0.0</y-m>
@@ -1067,7 +1067,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Frontal-146-DCU.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Frontal-146-DCU.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>0.0</y-m>
@@ -1083,7 +1083,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Frontal-146.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/TACAN_NAV_arn_21/Frontal-146.xml</path>
         <offsets>
             <x-m>-0.003</x-m>
             <y-m>0.0</y-m>
@@ -1099,7 +1099,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/frontal_support_107.95.xml</path>
+        <path>Models/Parts/Cockpit/frontal_support_107.95.xml</path>
         <offsets>
             <x-m>0.006</x-m>
             <y-m>0.0</y-m>
@@ -1115,7 +1115,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Gauges/PHI/PHI Doppler.xml</path>
+        <path>Models/Parts/Cockpit/Gauges/PHI/PHI Doppler.xml</path>
         <offsets>
             <x-m>0.009</x-m>
             <y-m>0.07325</y-m>
@@ -1127,7 +1127,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/frontal_support_25.4.xml</path>
+        <path>Models/Parts/Cockpit/frontal_support_25.4.xml</path>
         <offsets>
             <x-m>0.006</x-m>
             <y-m>0.0</y-m>
@@ -1139,7 +1139,7 @@
     <!-- Switch and light -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/Frontal_pannel_switchs_lights.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/Frontal_pannel_switchs_lights.xml</path>
     </model>
 
 </PropertyList> 

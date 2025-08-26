@@ -5,7 +5,7 @@
     <path>fire.ac</path>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <object-name>lg_red_cover (Meshed)</object-name>
         <object-name>lg_fire (Meshed)</object-name>
     </effect>
@@ -273,7 +273,7 @@
             </greater-than-equals>
         </condition>
         <name>pb_light_effect</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_red.xml</path>
+        <path>Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_red.xml</path>
         <offsets>
             <x-m> 0.02</x-m>
             <y-m> -0.013 </y-m>
@@ -289,7 +289,7 @@
             </greater-than-equals>
         </condition>
         <name>pb_light_effect</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_red.xml</path>
+        <path>Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_red.xml</path>
         <offsets>
             <x-m> 0.02</x-m>
             <y-m> -0.033 </y-m>
@@ -299,7 +299,7 @@
     
     <model>
         <name>procedural_light_cockpit_gauge_spot_red</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_gauge_spot_red.xml</path>
+        <path>Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_gauge_spot_red.xml</path>
         <offsets>
             <x-m> 0.03</x-m>
             <y-m> -0.03 </y-m>

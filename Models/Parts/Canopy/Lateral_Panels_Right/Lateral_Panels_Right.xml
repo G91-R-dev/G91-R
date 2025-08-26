@@ -1,7 +1,7 @@
 <PropertyList>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Lateral_panel_right_support/lateral_panel_right_support.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Lateral_panel_right_support/lateral_panel_right_support.xml</path>
         <offsets>
             <x-m>0.262</x-m>
             <y-m>0.240</y-m>

@@ -39,7 +39,7 @@
     <!-- Chrome Effects on materials -->
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_001</inherits-from>
+        <inherits-from>Models/Liveries/liveries_001</inherits-from>
         <object-name>F_canopY_ant</object-name>
         <object-name>A__G91_fuselage_canopy</object-name>
         <object-name>A__G91_fuselage_int.weapon.door.004</object-name>
@@ -49,7 +49,7 @@
     <!-- cover section -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Canopy_cover_with_cave_counter.xml</path>
+        <path>Models/Parts/Canopy/Canopy_cover_with_cave_counter.xml</path>
         <condition>
             <equals>
                 <property>sim/G91/liveries/active/PANR1</property>
@@ -59,7 +59,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Canopy_cover.xml</path>
+        <path>Models/Parts/Canopy/Canopy_cover.xml</path>
         <condition>
             <equals>
                 <property>sim/G91/liveries/active/PANR1</property>
@@ -230,7 +230,7 @@
     </effect>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_silver_D5_0</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_silver_D5_0</inherits-from>
         <object-name>F_canopy_ant_blind</object-name>
         <object-name>F_canopY_ant.001</object-name>
     </effect>
@@ -833,7 +833,7 @@
     <!-- Gauges -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A.xml</path>
+        <path>Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A.xml</path>
         <offsets>
             <x-m>-3.112</x-m>
             <y-m>0.0005</y-m>
@@ -848,7 +848,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Gun_Sight_Light/Gun_Sight_Light.xml</path>
+        <path>Models/Parts/Canopy/Components/Gun_Sight_Light/Gun_Sight_Light.xml</path>
         <offsets>
             <x-m>-3.143</x-m>
             <y-m>0.087</y-m>
@@ -862,7 +862,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Gauges/Compass_Kollsman_1979U4/Compass_Kollsman_1979U4.xml</path>
+        <path>Models/Parts/Canopy/Gauges/Compass_Kollsman_1979U4/Compass_Kollsman_1979U4.xml</path>
         <offsets>
             <x-m>-3.045</x-m>
             <y-m>0.103</y-m>
@@ -871,7 +871,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Handle_pull/Handle_pull.xml</path>
+        <path>Models/Parts/Canopy/Components/Handle_pull/Handle_pull.xml</path>
     </model>
 
     <model>
@@ -881,19 +881,19 @@
     <!-- Bath -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/bath.xml</path>
+        <path>Models/Parts/Canopy/bath.xml</path>
     </model>
 
     <!-- MK6 -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/MK6/MK6.xml</path>
+        <path>Models/Parts/Canopy/MK6/MK6.xml</path>
     </model>
 
     <!-- Pilot -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Pilot/pilot-G91.xml</path>
+        <path>Models/Parts/Canopy/Pilot/pilot-G91.xml</path>
         <condition>
             <and>
                 <equals>
@@ -909,7 +909,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Pilot/pilot-pan.xml</path>
+        <path>Models/Parts/Canopy/Pilot/pilot-pan.xml</path>
         <condition>
             <and>
                 <equals>
@@ -927,7 +927,7 @@
     <!-- Film Counter Box -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Film_Counter_Box/Film_Counter_Box.xml</path>
+        <path>Models/Parts/Canopy/Components/Film_Counter_Box/Film_Counter_Box.xml</path>
         <condition>
             <equals>
                 <property>sim/G91/liveries/active/recognition_gauges</property>
@@ -939,11 +939,11 @@
     <!-- Jato System -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/JATO_System/JATO_System.xml</path>
+        <path>Models/Parts/Canopy/Components/JATO_System/JATO_System.xml</path>
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/JATO_System/JATO_Ready_Switch.xml</path>
+        <path>Models/Parts/Canopy/Components/JATO_System/JATO_Ready_Switch.xml</path>
         <offsets>
             <x-m>-2.72</x-m>
             <y-m>-0.445</y-m>
@@ -961,7 +961,7 @@
     <!-- Canopy lever -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Canopy_lever/Canopy_lever.xml</path>
+        <path>Models/Parts/Canopy/Components/Canopy_lever/Canopy_lever.xml</path>
         <offsets>
             <x-m>-3.03</x-m>
             <y-m>-0.303</y-m>
@@ -981,7 +981,7 @@
 
     <model>
 
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Lateral_Panels_Left.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Lateral_Panels_Left.xml</path>
         <offsets>
             <x-m>-3.00</x-m>
             <y-m>-0.48</y-m>
@@ -998,7 +998,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Right/Lateral_Panels_Right.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Right/Lateral_Panels_Right.xml</path>
         <offsets>
             <x-m>-3.0</x-m>
             <y-m>0.225</y-m>
@@ -1017,7 +1017,7 @@
     <!-- Cloche -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Cloche/cloche.xml</path>
+        <path>Models/Parts/Canopy/Components/Cloche/cloche.xml</path>
         <offsets>
             <x-m>-2.9721944</x-m>
             <y-m>0.0</y-m>
@@ -1037,7 +1037,7 @@
     <!-- Pedals -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Steering_rudder_pedals/Steering_rudder_pedals.xml</path>
+        <path>Models/Parts/Canopy/Components/Steering_rudder_pedals/Steering_rudder_pedals.xml</path>
         <offsets>
             <x-m>-3.35</x-m>
             <y-m>0.0</y-m>

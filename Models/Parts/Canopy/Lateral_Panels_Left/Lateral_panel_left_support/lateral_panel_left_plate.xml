@@ -90,7 +90,7 @@
     </animation>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Starter_panel/Starter_panel.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Starter_panel/Starter_panel.xml</path>
         <offsets>
             <x-m>-0.365</x-m>
             <y-m>-0.144</y-m>
@@ -100,7 +100,7 @@
 
     <model>
         <name>Thrust-lever</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/Thrust_lever.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/Thrust_lever.xml</path>
         <offsets>
             <x-m>-0.180</x-m>
             <y-m>-0.051</y-m>
@@ -113,7 +113,7 @@
 
     <model>
         <name>Thrust-system</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/Thrust_system.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/Thrust_system.xml</path>
         <offsets>
             <x-m>-0.180</x-m>
             <y-m>-0.051</y-m>
@@ -126,7 +126,7 @@
 
     <!--
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Radio/C1607_ARC52.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Radio/C1607_ARC52.xml</path>
         <offsets>
             <x-m>-0.089</x-m>
             <y-m>-0.055</y-m>
@@ -136,7 +136,7 @@
     -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Radio/PTR175.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Radio/PTR175.xml</path>
         <offsets>
             <x-m>-0.089</x-m>
             <y-m>-0.055</y-m>
@@ -145,7 +145,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/UHF_Emerg_and_Dampers/UHF_Emerg_and_Dampers.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/UHF_Emerg_and_Dampers/UHF_Emerg_and_Dampers.xml</path>
         <offsets>
             <x-m>0.0</x-m>
             <y-m>0.0</y-m>
@@ -154,7 +154,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Trims/Trims.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Trims/Trims.xml</path>
         <offsets>
             <x-m>0.0</x-m>
             <y-m>0.0</y-m>
@@ -163,7 +163,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Missiles/Missiles.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Missiles/Missiles.xml</path>
         <offsets>
             <x-m>0.0</x-m>
             <y-m>0.0</y-m>
@@ -172,7 +172,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Armament/Armament.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Armament/Armament.xml</path>
         <offsets>
             <x-m>-0.001</x-m>
             <y-m>0.0</y-m>
@@ -181,7 +181,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Aux_and_oxigen/Aux_and_oxigen.xml</path>
+        <path>Models/Parts/Canopy/Lateral_Panels_Left/Aux_and_oxigen/Aux_and_oxigen.xml</path>
         <offsets>
             <x-m>-0.001</x-m>
             <y-m>0.0</y-m>

@@ -27,7 +27,7 @@
     </animation>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_001</inherits-from>
+        <inherits-from>Models/Liveries/liveries_001</inherits-from>
         <object-name>F_CANPOPY.005</object-name>
     </effect>
     
@@ -189,7 +189,7 @@
     <animation> 
         <type>rotate</type>
         <object-name>CanopyGroup</object-name>
-        <property>fdm/jsbsim/systems/canopy/position</property>
+        <property>sim/G91/canopy/position</property>
         <factor>45</factor>
         <center>
             <x-m>-1.50104</x-m>

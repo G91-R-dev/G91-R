@@ -12,7 +12,7 @@
     <!-- Tanks -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank450lb_10_Dx.xml</path>
+        <path>Models/Parts/Stores/Tank/Tank450lb_10_Dx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
@@ -22,7 +22,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank450lb_10_Sx.xml</path>
+        <path>Models/Parts/Stores/Tank/Tank450lb_10_Sx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
@@ -32,7 +32,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank-PAN_11_Dx.xml</path>
+        <path>Models/Parts/Stores/Tank/Tank-PAN_11_Dx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
@@ -42,7 +42,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank-PAN_11_Sx.xml</path>
+        <path>Models/Parts/Stores/Tank/Tank-PAN_11_Sx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
@@ -52,7 +52,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank900lb_12_Dx.xml</path>
+        <path>Models/Parts/Stores/Tank/Tank900lb_12_Dx.xml</path>
         <condition> 
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
@@ -62,7 +62,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank900lb_12_Sx.xml</path>
+        <path>Models/Parts/Stores/Tank/Tank900lb_12_Sx.xml</path>
         <condition> 
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
@@ -74,7 +74,7 @@
     <!-- Bombs Mk81 -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk81-250lb_ext_dx.xml</path>
+        <path>Models/Parts/Stores/Bombs/Mk81-250lb_ext_dx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/dx/external/type</property>
@@ -89,7 +89,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk81-250lb_int_dx.xml</path>
+        <path>Models/Parts/Stores/Bombs/Mk81-250lb_int_dx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
@@ -99,7 +99,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk81-250lb_int_sx.xml</path>
+        <path>Models/Parts/Stores/Bombs/Mk81-250lb_int_sx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
@@ -109,7 +109,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk81-250lb_ext_sx.xml</path>
+        <path>Models/Parts/Stores/Bombs/Mk81-250lb_ext_sx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/sx/external/type</property>
@@ -121,7 +121,7 @@
     <!-- Bombs Mk82 -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk82-500lb_int_dx.xml</path>
+        <path>Models/Parts/Stores/Bombs/Mk82-500lb_int_dx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
@@ -131,7 +131,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk82-500lb_int_sx.xml</path>
+        <path>Models/Parts/Stores/Bombs/Mk82-500lb_int_sx.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>

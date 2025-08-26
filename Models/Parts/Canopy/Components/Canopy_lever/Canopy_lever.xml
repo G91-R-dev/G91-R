@@ -4,7 +4,7 @@
     
     <!--
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_black_00</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_black_00</inherits-from>
         <object-name>F_lever_canopy01</object-name>
         <object-name>F_lever_canopy02</object-name>
     </effect>

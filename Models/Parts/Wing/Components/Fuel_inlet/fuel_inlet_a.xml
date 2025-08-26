@@ -3,7 +3,7 @@
 <PropertyList>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Components/Fuel_inlet/fuel_inlet.xml</path>
+        <path>Models/Parts/Wing/Components/Fuel_inlet/fuel_inlet.xml</path>
     </model>
     
     <animation>

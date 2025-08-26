@@ -5,7 +5,7 @@
     <!-- Right section -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_battery.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_battery.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.265</y-m>
@@ -15,7 +15,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_battery.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_battery.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.265</y-m>
@@ -25,7 +25,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_generator.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_generator.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.294</y-m>
@@ -35,7 +35,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_generator.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_generator.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.294</y-m>
@@ -45,7 +45,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_inv_prim.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_inv_prim.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.260</y-m>
@@ -55,7 +55,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_inv_prim.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_inv_prim.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.260</y-m>
@@ -65,7 +65,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_inv_sec.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_inv_sec.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>0.28632</y-m>
@@ -75,7 +75,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_inv_sec.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_inv_sec.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.28633</y-m>
@@ -85,7 +85,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_collect_tank_2_all_tank.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_collect_tank_2_all_tank.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.154</y-m>
@@ -95,7 +95,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_collect_tank_2_all_tank.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_collect_tank_2_all_tank.xml</path>
         <offsets>
             <x-m>0.013</x-m>
             <y-m>0.154</y-m>
@@ -107,7 +107,7 @@
     <!-- Left section -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_landing_light.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_landing_light.xml</path>
         <offsets>
             <x-m>0.020</x-m>
             <y-m>-0.320</y-m>
@@ -119,7 +119,7 @@
     <!-- Canopy section -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_canopy_on_off.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_canopy_on_off.xml</path>
         <offsets>
             <x-m>0.010</x-m>
             <y-m>-0.386</y-m>
@@ -129,7 +129,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_canopy_light.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_canopy_light.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>-0.335</y-m>
@@ -139,7 +139,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_canopy_open_external.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_canopy_open_external.xml</path>
         <offsets>
             <x-m>1.9355</x-m>
             <y-m>-0.6015</y-m>
@@ -150,7 +150,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_canopy_close_external.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_canopy_close_external.xml</path>
         <offsets>
             <x-m>1.922</x-m>
             <y-m>-0.615</y-m>
@@ -161,7 +161,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/push_button_landing_gear_test.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/push_button_landing_gear_test.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>-0.32</y-m>
@@ -171,7 +171,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/push_button_off_beeper.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/push_button_off_beeper.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>-0.32</y-m>
@@ -181,7 +181,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/push_button_emergency_release_loads.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/push_button_emergency_release_loads.xml</path>
         <offsets>
             <x-m>0.011</x-m>
             <y-m>-0.088</y-m>
@@ -191,7 +191,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_low_fuel_pressure.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_low_fuel_pressure.xml</path>
         <offsets>
             <x-m>0.013</x-m>
             <y-m>0.186</y-m>
@@ -201,7 +201,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_low_oil_pressure.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_low_oil_pressure.xml</path>
         <offsets>
             <x-m>0.013</x-m>
             <y-m>0.218</y-m>
@@ -211,7 +211,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_hydraulic_low_pressure.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_hydraulic_low_pressure.xml</path>
         <offsets>
             <x-m>0.013</x-m>
             <y-m>0.089</y-m>
@@ -221,7 +221,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_hydraulic_emerg.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_hydraulic_emerg.xml</path>
         <offsets>
             <x-m>0.012</x-m>
             <y-m>0.087</y-m>
@@ -232,7 +232,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_elevator_servo_ctrl.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_elevator_servo_ctrl.xml</path>
         <offsets>
             <x-m>0.013</x-m>
             <y-m>0.236</y-m>
@@ -242,7 +242,7 @@
     </model>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_elevator_servo_ctrl.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_elevator_servo_ctrl.xml</path>
         <offsets>
             <x-m>0.013</x-m>
             <y-m>0.2355</y-m>
@@ -252,7 +252,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_pylon-left-rack.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_pylon-left-rack.xml</path>
         <offsets>
             <x-m>-0.0053</x-m>
             <y-m>-0.090</y-m>
@@ -262,7 +262,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/lg_pylon-right-rack.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/lg_pylon-right-rack.xml</path>
         <offsets>
             <x-m>-0.0053</x-m>
             <y-m>0.090</y-m>
@@ -272,7 +272,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_pylon-left-rack.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_pylon-left-rack.xml</path>
         <offsets>
             <x-m>-0.0053</x-m>
             <y-m>-0.087</y-m>
@@ -283,7 +283,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/sw_pylon-right-rack.xml</path>
+        <path>Models/Parts/Cockpit/Switchs_Lights/sw_pylon-right-rack.xml</path>
         <offsets>
             <x-m>-0.0053</x-m>
             <y-m>0.087</y-m>

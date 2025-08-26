@@ -81,7 +81,7 @@
             </greater-than-equals>
         </condition>
         <name>pb_light_effect</name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_red.xml</path>
+        <path>Models/Parts/Cockpit/Effects/lights/procedural_light_cockpit_advise_red.xml</path>
         <offsets>
             <x-m> 0.04</x-m>
             <y-m> -0.005 </y-m>

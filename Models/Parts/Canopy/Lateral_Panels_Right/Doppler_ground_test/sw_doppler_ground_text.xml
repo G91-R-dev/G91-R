@@ -3,7 +3,7 @@
 <PropertyList>
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Common/switch_panel_02-15mm_lock_model.xml</path>
+        <path>Models/Parts/Common/switch_panel_02-15mm_lock_model.xml</path>
     </model>
     
     <animation>

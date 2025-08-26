@@ -38,7 +38,7 @@
     <!-- Effects on materials -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/glass-chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/glass-chrome</inherits-from>
         <object-name>A00_wing_light.cone_dx</object-name>
         <object-name>A00_wing_light.cone_sx.mesh</object-name>
         <object-name>B00_barra di rotazione.001</object-name>
@@ -55,7 +55,7 @@
 
     <!--
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_black_00</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_black_00</inherits-from>
         <object-name>F_door_em_canopySX.005</object-name>
     </effect>
     -->
@@ -211,7 +211,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_001</inherits-from>
+        <inherits-from>Models/Liveries/liveries_001</inherits-from>
         <object-name>A__G91_fuselage_int.weapon.door.001</object-name>
         <object-name>m00_door_01.1</object-name>
         <object-name>m00_door_02</object-name>
@@ -307,7 +307,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_002</inherits-from>
+        <inherits-from>Models/Liveries/liveries_002</inherits-from>
         <object-name>A_wing_dx.000</object-name>
         <object-name>A_wing_sx.000</object-name>
         <object-name>A_wing_dx.002</object-name>
@@ -390,7 +390,7 @@
     <animation> 
         <type>select</type>
         <object-name>A00_pitot_dx.001</object-name>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Fuselage_B/Fuselage_B3.xml</path>
+        <path>Models/Parts/Fuselage_B/Fuselage_B3.xml</path>
         <condition>
             <greater-than-equals>
                 <property>sim/G91/liveries/active/version</property>
@@ -1223,14 +1223,14 @@
     <!-- Handles -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Handle_pull/Handle_pull.xml</path>
+        <path>Models/Parts/Wing/Handle_pull/Handle_pull.xml</path>
     </model>
     
     <!-- Lights -->
     <!-- Explain the syntax at: http://wiki.flightgear.org/ALS_technical_notes#ALS_procedural_lights -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <object-name>A00_wing_light.glass_sx</object-name>
         <object-name>A00_light_sphere_sx</object-name>
     </effect>
@@ -1312,7 +1312,7 @@
     <!-- Green navigation light on port side (right) -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <name>nav-light-left</name>
         <object-name>A00_wing_light.glass_dx</object-name>
         <object-name>A00_light_sphere_dx</object-name>
@@ -2047,7 +2047,7 @@
     <!-- Hardpoints -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hardpoints.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hardpoints.xml</path>
         <offsets>
             <x-m>0.0</x-m>
             <y-m>0.0</y-m>
@@ -2058,7 +2058,7 @@
     <!-- JATO -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/JATO/JATO.xml</path>
+        <path>Models/Parts/Wing/JATO/JATO.xml</path>
     </model>
     
     <!-- Tyre-Smoke -->
@@ -2086,7 +2086,7 @@
     <!-- lights -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Components/Beacon/G8400A24-24.xml</path>
+        <path>Models/Parts/Wing/Components/Beacon/G8400A24-24.xml</path>
         <name>beacon</name>
         <offsets>
             <x-m>0.015</x-m>
@@ -2097,7 +2097,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Components/Anticollision_light/under_anticollision_light.xml</path>
+        <path>Models/Parts/Wing/Components/Anticollision_light/under_anticollision_light.xml</path>
         <name>under-anticollision-light</name>
         <offsets>
             <x-m>-0.28</x-m>
@@ -2112,7 +2112,7 @@
     <!-- Gauges -->
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Components/Fuel_manometer_thank_5/fuel_manometer_D63_0-5PSI.xml</path>
+        <path>Models/Parts/Wing/Components/Fuel_manometer_thank_5/fuel_manometer_D63_0-5PSI.xml</path>
         <name>fuel-manometer</name>
         <offsets>
             <x-m>0.892</x-m>
@@ -2127,7 +2127,7 @@
     <!-- Fuel inlet -->
 
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Components/Fuel_inlet/fuel_inlet_a.xml</path>
+        <path>Models/Parts/Wing/Components/Fuel_inlet/fuel_inlet_a.xml</path>
         <name>fuel-inlet-a</name>
         <offsets>
             <x-m>-0.785</x-m>
@@ -2140,7 +2140,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Components/Fuel_inlet/fuel_inlet_b.xml</path>
+        <path>Models/Parts/Wing/Components/Fuel_inlet/fuel_inlet_b.xml</path>
         <name>fuel-inlet-b</name>
         <offsets>
             <x-m>0.0385</x-m>

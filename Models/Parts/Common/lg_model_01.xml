@@ -2,7 +2,7 @@
 
 <PropertyList>
     
-    <path>Aircraft/G91-R1B_HD/Models/Parts/Common/lg_model_01.ac</path>
+    <path>Models/Parts/Common/lg_model_01.ac</path>
 
     <offsets>
         <x-m>0.0055</x-m>
@@ -12,7 +12,7 @@
     </offsets>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <object-name>transparent_button (Meshed)</object-name>
         <object-name>light_Sphere (Meshed)</object-name>
         <object-name>light_Sphere_hot (Meshed)</object-name>

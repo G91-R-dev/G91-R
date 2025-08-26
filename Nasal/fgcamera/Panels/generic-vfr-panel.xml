@@ -22,39 +22,6 @@
             <h>90</h>
         </instrument>
         <!-- end controls visual feedback cluster -->
-        <!-- Only for concept
-        <instrument include="/home/abassign/github/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Kollsman_ME4/Kollsman_ME4.xml">
-            <name>Airspeed Indicator</name>
-            <x>302</x>
-            <y>60</y>
-            <w>100</w>
-            <h>100</h>
-        </instrument>
-        
-        <instrument include="/home/abassign/github/G91-R1B_HD/Models/Parts/Cockpit/Gauges/J8/J8.xml">
-            <name>Attitude Gyro</name>
-            <x>412</x>
-            <y>60</y>
-            <w>100</w>
-            <h>100</h>
-        </instrument>
-        
-        <instrument include="/home/abassign/github/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Kollsman_Climb_25363/Kollsman_Climb_25363.xml">
-            <name>Vertical Velocity Indicator</name>
-            <x>522</x>
-            <y>60</y>
-            <w>100</w>
-            <h>100</h>
-        </instrument>
-
-        <instrument include="/home/abassign/github/G91-R1B_HD/Models/Parts/Cockpit/Gauges/Altimeter/Altimeter.xml">
-            <name>Altimeter</name>
-            <x>632</x>
-            <y>60</y>
-            <w>100</w>
-            <h>100</h>
-        </instrument>
-        -->
     </instruments>
     
     

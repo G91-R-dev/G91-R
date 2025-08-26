@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <PropertyList>
-    <name>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/flap_lever</name>
+    <name>Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/flap_lever</name>
     <inherits-from>Effects/model-combined-deferred</inherits-from>
     <parameters>
         <normalmap-enabled type="int">1</normalmap-enabled>
         <normalmap-dds type="int">0</normalmap-dds>
         <texture n="2">
-            <image>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/TEXTURE_TEX_d1.png</image>
+            <image>Models/Parts/Canopy/Lateral_Panels_Left/Thrust_lever/TEXTURE_TEX_d1.png</image>
             <filter>linear-mipmap-linear</filter>
             <wrap-s>clamp</wrap-s>
             <wrap-t>clamp</wrap-t>

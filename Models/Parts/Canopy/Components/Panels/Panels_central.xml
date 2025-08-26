@@ -10,14 +10,14 @@
     </offsets>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Panels/Panels_central/Panel_inf_01.xml</path>
+        <path>Models/Parts/Canopy/Components/Panels/Panels_central/Panel_inf_01.xml</path>
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Panels/Panels_central/Panel_inf_02.xml</path>
+        <path>Models/Parts/Canopy/Components/Panels/Panels_central/Panel_inf_02.xml</path>
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Components/Panels/Panels_central/Panel_inf_03.xml</path>
+        <path>Models/Parts/Canopy/Components/Panels/Panels_central/Panel_inf_03.xml</path>
     </model>
 </PropertyList>

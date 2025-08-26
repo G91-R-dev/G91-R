@@ -8,7 +8,7 @@
         
         <combustion>
             <name>Startup external</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/G91 startup external.wav</path>
+            <path>Sounds/G91 startup external.wav</path>
             <mode>once</mode>
             <condition>
                 <and>
@@ -39,7 +39,7 @@
         
         <combustion>
             <name>Startup external explosion</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/G91 startup explosion external.wav</path>
+            <path>Sounds/G91 startup explosion external.wav</path>
             <mode>once</mode>
             <condition>
                 <and>
@@ -70,7 +70,7 @@
         
         <silence>
             <name>Silence in the cabin</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/G91 silence internal runway.wav</path>
+            <path>Sounds/G91 silence internal runway.wav</path>
             <mode>looped</mode>
             <condition>
                 <and>
@@ -94,7 +94,7 @@
         
         <combustion>
             <name>Startup internal</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/G91 startup internal.wav</path>
+            <path>Sounds/G91 startup internal.wav</path>
             <mode>once</mode>
             <condition>
                 <and>
@@ -112,7 +112,7 @@
         
         <combustion>
             <name>Startup internal explosion</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/G91 startup explosion internal.wav</path>
+            <path>Sounds/G91 startup explosion internal.wav</path>
             <mode>once</mode>
             <condition>
                 <and>
@@ -130,7 +130,7 @@
         
         <combustion>
             <name>combustion external</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/MB339-motor-external.wav</path>
+            <path>Sounds/MB339-motor-external.wav</path>
             <mode>looped</mode>
             <condition>
                 <and>
@@ -171,7 +171,7 @@
         
         <combustion>
             <name>combustion internal </name>
-            <path>Aircraft/G91-R1B_HD/Sounds/MB339-motor-internal.wav</path>
+            <path>Sounds/MB339-motor-internal.wav</path>
             <mode>looped</mode>
             <condition>
                 <and>
@@ -200,7 +200,7 @@
         <wind>
             <name>wind</name>
             <mode>looped</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/wind.wav</path>
+            <path>Sounds/wind.wav</path>
             <volume>
                 <property>fdm/jsbsim/aero/qbar-psf</property>
                 <factor>0.0025</factor>
@@ -213,7 +213,7 @@
         
         <jato-burning-internal>
             <name>jato-burning-internal</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/Vostok-1-Stage-1-2-Engines-Internal.wav</path>
+            <path>Sounds/Vostok-1-Stage-1-2-Engines-Internal.wav</path>
             <mode>looped</mode>
             <condition>
                 <and>
@@ -239,7 +239,7 @@
         
         <jato-burning-external>
             <name>jato-burning-external</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/Vostok-1-Stage-1-2-Engines-External.wav</path>
+            <path>Sounds/Vostok-1-Stage-1-2-Engines-External.wav</path>
             <mode>looped</mode>
             <condition>
                 <and>
@@ -270,7 +270,7 @@
         <gear>
             <name>open gear</name>
             <mode>once</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/gear-audioclip-open-1534083948-17858.wav</path>
+            <path>Sounds/gear-audioclip-open-1534083948-17858.wav</path>
             <condition>
                 <and>
                     <equals>
@@ -288,7 +288,7 @@
         <gear>
             <name>close gear</name>
             <mode>once</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/gear-audioclip-close-1534083948-17858.wav</path>
+            <path>Sounds/gear-audioclip-close-1534083948-17858.wav</path>
             <condition>
                 <and>
                     <equals>
@@ -306,7 +306,7 @@
         <rumble>
             <name>gear rumble</name>
             <mode>looped</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/rumble.wav</path>
+            <path>Sounds/rumble.wav</path>
             <condition>
                 <equals>
                     <property>sim/current-view/internal</property>
@@ -322,7 +322,7 @@
         <rumble>
             <name>rumble0</name>
             <mode>looped</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/rumble.wav</path>
+            <path>Sounds/rumble.wav</path>
             <condition>
                 <equals>
                     <property>fdm/jsbsim/gear/unit[0]/WOW</property>
@@ -339,7 +339,7 @@
         <rumble>
             <name>rumble1</name>
             <mode>looped</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/rumble.wav</path>
+            <path>Sounds/rumble.wav</path>
             <condition>
                 <equals>
                     <property>fdm/jsbsim/gear/unit[1]/WOW</property>
@@ -356,7 +356,7 @@
         <rumble>
             <name>rumble2</name>
             <mode>looped</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/rumble.wav</path>
+            <path>Sounds/rumble.wav</path>
             <condition>
                 <equals>
                     <property>fdm/jsbsim/gear/unit[2]/WOW</property>
@@ -372,7 +372,7 @@
         
         <landing-gear-beeper>
             <name>landing-gear-beeper</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/landing-gear-beeper.wav</path>
+            <path>Sounds/landing-gear-beeper.wav</path>
             <mode>looped</mode>
             <condition>
                 <equals>
@@ -402,7 +402,7 @@
         
         <flaps-tear>
             <name>flaps-tear</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/flaps-tear.wav</path>
+            <path>Sounds/flaps-tear.wav</path>
             <mode>once</mode>
             <condition>
                 <equals>
@@ -417,7 +417,7 @@
         
         <flaps-down>
             <name>flaps-down</name>
-            <path>Aircraft/G91-R1B_HD/Sounds/metal-down.wav</path>
+            <path>Sounds/metal-down.wav</path>
             <mode>once</mode>
             <condition>
                 <equals>
@@ -433,7 +433,7 @@
         <flap>
             <name>flaps</name>
             <mode>in-transit</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/flaps.wav</path>
+            <path>Sounds/flaps.wav</path>
             <property>fdm/jsbsim/fcs/flap-pos-norm</property>
             <volume>
                 <factor>0.15</factor>
@@ -443,7 +443,7 @@
         <rumble>
             <name>air-brakes</name>
             <mode>looped</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/rumble.wav</path>
+            <path>Sounds/rumble.wav</path>
             <condition>
                 <equals>
                     <property>sim/current-view/internal</property>
@@ -459,7 +459,7 @@
         <canopy_move_int>
             <name>canopy_move</name>
             <mode>once</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/canopy-audioclip-1534115848-6773.wav</path>
+            <path>Sounds/canopy-audioclip-1534115848-6773.wav</path>
             <condition>
                 <and>
                     <or>
@@ -486,7 +486,7 @@
         <canopy_stop_int>
             <name>canopy_stop</name>
             <mode>once</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/canopy-stop-audioclip-1534116200-6087.wav</path>
+            <path>Sounds/canopy-stop-audioclip-1534116200-6087.wav</path>
             <condition>
                 <and>
                     <equals>
@@ -507,7 +507,7 @@
         <canopy_move_ext>
             <name>canopy_move</name>
             <mode>in-transit</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/canopy-audioclip-1534115848-6773.wav</path>
+            <path>Sounds/canopy-audioclip-1534115848-6773.wav</path>
             <condition>
                 <and>
                     <or>
@@ -534,7 +534,7 @@
         <canopy_stop_ext>
             <name>canopy_stop</name>
             <mode>in-transit</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/canopy-stop-audioclip-1534116200-6087.wav</path>
+            <path>Sounds/canopy-stop-audioclip-1534116200-6087.wav</path>
             <condition>
                 <and>
                     <equals>
@@ -555,7 +555,7 @@
         <canopy_lock_int>
             <name>canopy_lock_int</name>
             <mode>once</mode>
-            <path>Aircraft/G91-R1B_HD/Sounds/canopy-close-left.wav</path>
+            <path>Sounds/canopy-close-left.wav</path>
             <condition>
                 <and>
                     <equals>

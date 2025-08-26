@@ -15,7 +15,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_silver_D2_1</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_silver_D2_1</inherits-from>
         <object-name>ball (Meshed)</object-name>
         <object-name>border (Meshed)</object-name>
     </effect>

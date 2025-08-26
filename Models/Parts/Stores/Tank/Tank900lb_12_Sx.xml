@@ -36,7 +36,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_002</inherits-from>
+        <inherits-from>Models/Liveries/liveries_002</inherits-from>
         <object-name>tank_cover_top</object-name>
         <object-name>tank_cover_downa</object-name>
         <object-name>orizontal-pin (Meshed)</object-name>

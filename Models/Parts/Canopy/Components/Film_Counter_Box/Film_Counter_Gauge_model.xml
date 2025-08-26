@@ -12,7 +12,7 @@
     </animation>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_chrome</inherits-from>
         <object-name>frontal (Meshed)</object-name>
         <object-name>arrow (Meshed)</object-name>
     </effect>

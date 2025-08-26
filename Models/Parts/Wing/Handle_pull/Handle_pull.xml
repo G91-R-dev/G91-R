@@ -3,7 +3,7 @@
 <PropertyList>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Dx.xml</path>
+        <path>Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Dx.xml</path>
         <offsets>
             <x-m>-1.21</x-m>
             <y-m>0.63</y-m>
@@ -15,7 +15,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Sx.xml</path>
+        <path>Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett/Emer_Canopy_Jett_Sx.xml</path>
         <offsets>
             <x-m>-1.21</x-m>
             <y-m>-0.63</y-m>

@@ -124,8 +124,8 @@ var StdIlluminator = {
             if (alt != nil) {
                 me.node = {
                     "type": "static",
-                    "model":"Aircraft/G91-R1B_HD/Models/Parts/Accessories/StandIlluminator.xml",
-                    "model-lowres":"Aircraft/G91-R1B_HD/Models/Parts/Accessories/StandIlluminator.xml",
+                    "model":"Models/Parts/Accessories/StandIlluminator.xml",
+                    "model-lowres":"Models/Parts/Accessories/StandIlluminator.xml",
                     "latitude": position.lat(),
                     "longitude": position.lon(),
                     "altitude": alt*M2FT,

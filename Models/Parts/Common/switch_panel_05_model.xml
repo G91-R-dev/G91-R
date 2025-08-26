@@ -6,7 +6,7 @@ Original work Copyright (c) 2018 Adriano Bassignana (abassign)
 
 <PropertyList>
     
-    <path>Aircraft/G91-R1B_HD/Models/Parts/Common/switch_panel_05.ac</path>
+    <path>Models/Parts/Common/switch_panel_05.ac</path>
     
     <offsets>
         <x-m>-0.004</x-m>
@@ -15,7 +15,7 @@ Original work Copyright (c) 2018 Adriano Bassignana (abassign)
     </offsets>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_chrome</inherits-from>
         <object-name>pin (Meshed)</object-name>
         <object-name>ring (Meshed)</object-name>
         <object-name>nut (Meshed)</object-name>

@@ -3,7 +3,7 @@
 <PropertyList>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hooks-SxExternal.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hooks-SxExternal.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/stations/stationSxExternal/typeHook</property>
@@ -13,7 +13,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hooks-SxInternal.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hooks-SxInternal.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/stations/stationSxInternal/typeHook</property>
@@ -23,7 +23,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hooks-SxInternal-PAN.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hooks-SxInternal-PAN.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/stations/stationSxInternal/typeHook</property>
@@ -33,7 +33,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hooks-DxInternal.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hooks-DxInternal.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/stations/stationDxInternal/typeHook</property>
@@ -43,7 +43,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hooks-DxInternal-PAN.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hooks-DxInternal-PAN.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/stations/stationDxInternal/typeHook</property>
@@ -53,7 +53,7 @@
     </model>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Stores/Hardpoints/hooks-DxExternal.xml</path>
+        <path>Models/Parts/Stores/Hardpoints/hooks-DxExternal.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/stations/stationDxExternal/typeHook</property>

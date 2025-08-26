@@ -114,7 +114,7 @@ var store = func() {
             
     if (timeStepSecond == 1 and isModelCreate == 0) {
         if (getprop("fdm/jsbsim/systems/store/stations/dx/external/type") == 20) {
-            var path = "Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk81-250lb_ext_dx.xml";
+            var path = "Models/Parts/Stores/Bombs/Mk81-250lb_ext_dx.xml";
             isModelCreate = 1;
             submodel = StoreModelDataClass.new();
             submodel.init("abassign-Mk81-250lb_ext_dx",1,path);

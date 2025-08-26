@@ -7,7 +7,7 @@ Original work Copyright (c) 2018 Adriano Bassignana (abassign)
 <PropertyList>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Common/switch_panel_05_no_cover_model.xml</path>
+        <path>Models/Parts/Common/switch_panel_05_no_cover_model.xml</path>
     </model>
     
     <animation>

@@ -2,7 +2,7 @@
 
 <propulsion>
     <engine file="ORPHEUS_MK_803">
-        <location unit="M">
+        <!--location unit="M">
             <x>   7.00 </x>
             <y>   0.00 </y>
             <z>   0.00 </z>
@@ -11,7 +11,7 @@
             <pitch> 0.00 </pitch>
             <roll>  0.00 </roll>
             <yaw>   0.00 </yaw>
-        </orient>
+        </orient-->
         <feed>7</feed> <!-- The fuel keep from Collector or Manifold Tank number=7 -->
         <thruster file="direct">
             <location unit="M">
@@ -125,7 +125,7 @@
     <!-- JATO Engine 1 -->
     
     <engine file="JATO-M8-Engine">
-        <location unit="M">
+        <!--location unit="M">
             <x>   6.48 </x>
             <y>   -0.34 </y>
             <z>   -0.83 </z>
@@ -134,7 +134,7 @@
             <pitch> 15.00 </pitch>
             <roll>  0.00 </roll>
             <yaw>   0.00 </yaw>
-        </orient>
+        </orient-->
         <feed>8</feed>
         <thruster file="direct">
             <location unit="M">
@@ -163,7 +163,7 @@
     <!-- JATO Engine 2 -->
     
     <engine file="JATO-M8-Engine">
-        <location unit="M">
+        <!--location unit="M">
             <x>   6.48 </x>
             <y>   -0.11 </y>
             <z>   -0.83 </z>
@@ -172,7 +172,7 @@
             <pitch> 0.00 </pitch>
             <roll>  0.00 </roll>
             <yaw>   0.00 </yaw>
-        </orient>
+        </orient-->
         <feed>9</feed>
         <thruster file="direct">
             <location unit="M">
@@ -201,7 +201,7 @@
     <!-- JATO Engine 3 -->
     
     <engine file="JATO-M8-Engine">
-        <location unit="M">
+        <!--location unit="M">
             <x>   6.1 </x>
             <y>   0.11 </y>
             <z>   -0.83 </z>
@@ -210,7 +210,7 @@
             <pitch> 0.00 </pitch>
             <roll>  0.00 </roll>
             <yaw>   0.00 </yaw>
-        </orient>
+        </orient-->
         <feed>10</feed>
         <thruster file="direct">
             <location unit="M">
@@ -239,7 +239,7 @@
     <!-- JATO Engine 4 -->
     
     <engine file="JATO-M8-Engine">
-        <location unit="M">
+        <!--location unit="M">
             <x>   6.1 </x>
             <y>   0.34 </y>
             <z>   -0.83 </z>
@@ -248,7 +248,7 @@
             <pitch> 0.00 </pitch>
             <roll>  0.00 </roll>
             <yaw>   0.00 </yaw>
-        </orient>
+        </orient-->
         <feed>11</feed>
         <thruster file="direct">
             <location unit="M">

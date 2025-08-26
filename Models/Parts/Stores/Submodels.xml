@@ -12,7 +12,7 @@
             <pitch-offset>45</pitch-offset>
         </offsets>
         <name>canopy_top</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Canopy/Canopy_Top/Canopy_Top.xml</model>
+        <model>Models/Parts/Canopy/Canopy_Top/Canopy_Top.xml</model>
         <trigger>sim/G91/Test/V0_1B</trigger>
         <slaved>true</slaved>
     </submodel>
@@ -30,7 +30,7 @@
         <yaw-offset>0</yaw-offset>
         <pitch-offset>0</pitch-offset>
         <name>canonSxDown</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Cannon/bullet-12-7-01.xml</model>
+        <model>Models/Parts/Stores/Cannon/bullet-12-7-01.xml</model>
         <trigger>ai/submodels/trigger</trigger>
         <repeat>true</repeat>
         <count>50000</count>
@@ -58,7 +58,7 @@
             <z-m>-0.449</z-m>
         </offsets>
         <name>stationSxInternal_Tank260lit</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank450lb_10_Sx_sub.xml</model>
+        <model>Models/Parts/Stores/Tank/Tank450lb_10_Sx_sub.xml</model>
         <trigger>sim/G91/stores/stationSxInternalDropFromStation</trigger>
         <repeat>true</repeat>
         <count>1</count>
@@ -86,7 +86,7 @@
             <z-m>-0.449</z-m>
         </offsets>
         <name>stationDxInternal_Tank260lit</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank450lb_10_Dx_sub.xml</model>
+        <model>Models/Parts/Stores/Tank/Tank450lb_10_Dx_sub.xml</model>
         <trigger>sim/G91/stores/stationDxInternalDropFromStation</trigger>
         <repeat>true</repeat>
         <count>1</count>
@@ -116,7 +116,7 @@
             <z-m>-0.520</z-m>
         </offsets>
         <name>stationSxInternal_Tank900lb</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank900lb_12_Sx_sub.xml</model>
+        <model>Models/Parts/Stores/Tank/Tank900lb_12_Sx_sub.xml</model>
         <trigger>sim/G91/stores/stationSxInternalDropFromStation</trigger>
         <repeat>true</repeat>
         <count>1</count>
@@ -144,7 +144,7 @@
             <z-m>-0.520</z-m>
         </offsets>
         <name>stationDxInternal_Tank900lb</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Tank/Tank900lb_12_Dx_sub.xml</model>
+        <model>Models/Parts/Stores/Tank/Tank900lb_12_Dx_sub.xml</model>
         <trigger>sim/G91/stores/stationDxInternalDropFromStation</trigger>
         <repeat>true</repeat>
         <count>1</count>
@@ -174,7 +174,7 @@
             <z-m>0.0</z-m>
         </offsets>
         <name>JATO_System</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Wing/JATO/JATO.xml</model>
+        <model>Models/Parts/Wing/JATO/JATO.xml</model>
         <trigger>sim/G91/JATO/JATO_Jettinson_Push</trigger>
         <repeat>false</repeat>
         <count>100</count>
@@ -205,7 +205,7 @@
             <z-m>0.0</z-m>
         </offsets>
         <name>stationSxInternal_MK82</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk82-500lb_int_sx.xml</model>
+        <model>Models/Parts/Stores/Bombs/Mk82-500lb_int_sx.xml</model>
         <trigger>fdm/jsbsim/systems/store/stations/sx/internal/drop-trigger</trigger>
         <repeat>false</repeat>
         <count>1</count>
@@ -232,7 +232,7 @@
             <z-m>0.0</z-m>
         </offsets>
         <name>stationDxInternal_MK82</name>
-        <model>Aircraft/G91-R1B_HD/Models/Parts/Stores/Bombs/Mk82-500lb_int_dx.xml</model>
+        <model>Models/Parts/Stores/Bombs/Mk82-500lb_int_dx.xml</model>
         <trigger>fdm/jsbsim/systems/store/stations/dx/internal/drop-trigger</trigger>
         <repeat>true</repeat>
         <count>1</count>

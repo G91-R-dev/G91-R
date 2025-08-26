@@ -63,7 +63,7 @@
     </animation>
 
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <object-name>selector_1_light_window (Meshed)</object-name>
         <object-name>selector_2_light_window (Meshed)</object-name>
         <object-name>selector_3_light_window (Meshed)</object-name>

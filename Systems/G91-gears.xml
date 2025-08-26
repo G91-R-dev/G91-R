@@ -17,7 +17,7 @@ Modify the program for gear[0] pivoting
     
     <property value="0.0">systems/gears/gear[0]/is-stationary</property>
     <property value="1.5">systems/gears/gear[0]/slip-angle-deg-lag-c1</property>
-    <property value="0.0">systems/gears/gear[0]/slip-angle-deg-lag</property>
+    <!--property value="0.0">systems/gears/gear[0]/slip-angle-deg-lag</property-->
     
     <property value="0.0">systems/gears/induced-turbulence</property>
     <property value="0.2">systems/gears/induced-turbulence-intensity</property>

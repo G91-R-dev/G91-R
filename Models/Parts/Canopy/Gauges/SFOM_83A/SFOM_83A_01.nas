@@ -28,7 +28,7 @@ sfom83A_canvas.name = "SFOM83A_canvas_Collimator_glass_TargetDOWN";
 sfom83A_canvas.addPlacement({"node": "Collimator_glass_TargetDOWN"});
 sfom83A_canvas.setColorBackground(0.0, 0.1, 0.0, 0.2);
 sfom83A_root = sfom83A_canvas.createGroup();
-sfom83A_path = "Aircraft/G91-R1B_HD/Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A_03_Cross_1024.png";
+sfom83A_path = "Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A_03_Cross_1024.png";
 sfom83A_child = sfom83A_root.createChild("image")
         .setFile(sfom83A_path)
         .setTranslation(0,0)

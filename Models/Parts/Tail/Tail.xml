@@ -14,7 +14,7 @@
     <!-- Chrome Effects on materials -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/glass-chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/glass-chrome</inherits-from>
         <object-name>A__G91_light_coda-reflect.000</object-name>
         <object-name>DADI.027</object-name>
         <object-name>D_DADI_Plate_vertical_wing</object-name>
@@ -24,7 +24,7 @@
     </effect>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_001</inherits-from>
+        <inherits-from>Models/Liveries/liveries_001</inherits-from>
         <object-name>A__G91_fuselage_coda.002</object-name>
         <object-name>A__G91_fuselage_coda.005</object-name>
         <object-name>A__G91_fuselage_coda.006</object-name>
@@ -108,7 +108,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Liveries/liveries_002</inherits-from>
+        <inherits-from>Models/Liveries/liveries_002</inherits-from>
         <object-name>D_wing_sx_.001</object-name>
         <object-name>D_wing_sx.000</object-name>
         <object-name>D_wing_dx_.000</object-name>
@@ -355,7 +355,7 @@
     <!-- Tail Lights -->
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <object-name>A_glass_red_est_coda</object-name>
         <object-name>A_glass_red_int_coda</object-name>
         <object-name>A_glass_white_est_coda</object-name>
@@ -439,7 +439,7 @@
     </model>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/exterior/exterior-glass</inherits-from>
+        <inherits-from>Models/Effects/exterior/exterior-glass</inherits-from>
         <object-name>A_glass_white_est_coda</object-name>
         <object-name>A_glass_white_int_coda</object-name>
     </effect>
@@ -796,7 +796,7 @@
     </animation>
     
     <model>
-        <path>Aircraft/G91-R1B_HD/Models/Parts/Tail/Dragchute.xml</path>
+        <path>Models/Parts/Tail/Dragchute.xml</path>
         <condition>
             <equals>
                 <property>fdm/jsbsim/systems/dragchute/active</property>

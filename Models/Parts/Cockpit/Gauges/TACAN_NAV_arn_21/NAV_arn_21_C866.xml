@@ -30,7 +30,7 @@
     </animation>
     
     <effect>
-        <inherits-from>Aircraft/G91-R1B_HD/Models/Effects/Reflections/reflection_chrome</inherits-from>
+        <inherits-from>Models/Effects/Reflections/reflection_chrome</inherits-from>
         <object-name>switch_2_level (Meshed)</object-name>
         <object-name>switch_2_ring (Meshed)</object-name>
     </effect>

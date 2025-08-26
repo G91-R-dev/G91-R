@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <PropertyList>
-    <name>Aircraft/G91-R1B_HD/Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett</name>
+    <name>Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett</name>
     <inherits-from>Effects/model-combined-deferred</inherits-from>
     <parameters>
         <normalmap-enabled type="int">1</normalmap-enabled>
         <normalmap-dds type="int">0</normalmap-dds>
         <texture n="2">
-            <image>Aircraft/G91-R1B_HD/Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett/handle_01_mn.png</image>
+            <image>Models/Parts/Wing/Handle_pull/Emer_Canopy_Jett/handle_01_mn.png</image>
             <filter>linear-mipmap-linear</filter>
             <wrap-s>clamp</wrap-s>
             <wrap-t>clamp</wrap-t>

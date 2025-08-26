@@ -10,21 +10,21 @@ var lastMenuActive = "F1Menu";
 var dialogsMenu = {};
 
 dialogsMenu["nil"] = [nil,nil,nil];
-dialogsMenu["F1Menu"] = ["sim/gui/dialogs/G91/F1Menu/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-F1Menu.xml",nil];
-dialogsMenu["Pilot-Assistant"] = ["sim/gui/dialogs/G91/Autopilot/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Pilot-Assistant.xml",nil];
-dialogsMenu["Configuration"] = ["sim/gui/dialogs/G91/Configuration/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Configuration.xml",nil];
-dialogsMenu["Engine"] = ["sim/gui/dialogs/G91/Engine/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Engine.xml",nil];
-dialogsMenu["Electric"] = ["sim/gui/dialogs/G91/Electric/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Electric.xml",nil];
-dialogsMenu["Radio-Near-Selector"] = ["sim/gui/dialogs/G91/Radio/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Radio-Near-Selector.xml",nil];
-dialogsMenu["PHI"] =["sim/gui/dialogs/G91/PHI/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-PHI.xml",nil];
-dialogsMenu["radio_ptr175"] = ["sim/gui/dialogs/G91/ptr175/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-radio_ptr175.xml",nil];
-dialogsMenu["Livery"] = ["sim/gui/dialogs/G91/Livery/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Livery.xml",nil];
-dialogsMenu["JATO"] = ["sim/gui/dialogs/G91/JATO/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-JATO.xml",nil];
-dialogsMenu["Acro"] = ["sim/gui/dialogs/G91/Acro/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Acro.xml",nil];
-dialogsMenu["Accessories"] = ["sim/gui/dialogs/G91/Accessories/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Accessories.xml",nil];
-dialogsMenu["Effects"] = ["sim/gui/dialogs/G91/Effects/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Effects.xml",nil];
-dialogsMenu["Militar-Pilot-Assistant"] = ["sim/gui/dialogs/G91/MilitarPilotAssistant/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-Militar-Pilot-Assistant.xml",nil];
-dialogsMenu["TestSystemsPlane"] = ["sim/gui/dialogs/G91/TestSystemsPlane/dialog","Aircraft/G91-R1B_HD/Dialogs/G91-test.xml",nil];
+dialogsMenu["F1Menu"] = ["sim/gui/dialogs/G91/F1Menu/dialog","Dialogs/G91-F1Menu.xml",nil];
+dialogsMenu["Pilot-Assistant"] = ["sim/gui/dialogs/G91/Autopilot/dialog","Dialogs/G91-Pilot-Assistant.xml",nil];
+dialogsMenu["Configuration"] = ["sim/gui/dialogs/G91/Configuration/dialog","Dialogs/G91-Configuration.xml",nil];
+dialogsMenu["Engine"] = ["sim/gui/dialogs/G91/Engine/dialog","Dialogs/G91-Engine.xml",nil];
+dialogsMenu["Electric"] = ["sim/gui/dialogs/G91/Electric/dialog","Dialogs/G91-Electric.xml",nil];
+dialogsMenu["Radio-Near-Selector"] = ["sim/gui/dialogs/G91/Radio/dialog","Dialogs/G91-Radio-Near-Selector.xml",nil];
+dialogsMenu["PHI"] =["sim/gui/dialogs/G91/PHI/dialog","Dialogs/G91-PHI.xml",nil];
+dialogsMenu["radio_ptr175"] = ["sim/gui/dialogs/G91/ptr175/dialog","Dialogs/G91-radio_ptr175.xml",nil];
+dialogsMenu["Livery"] = ["sim/gui/dialogs/G91/Livery/dialog","Dialogs/G91-Livery.xml",nil];
+dialogsMenu["JATO"] = ["sim/gui/dialogs/G91/JATO/dialog","Dialogs/G91-JATO.xml",nil];
+dialogsMenu["Acro"] = ["sim/gui/dialogs/G91/Acro/dialog","Dialogs/G91-Acro.xml",nil];
+dialogsMenu["Accessories"] = ["sim/gui/dialogs/G91/Accessories/dialog","Dialogs/G91-Accessories.xml",nil];
+dialogsMenu["Effects"] = ["sim/gui/dialogs/G91/Effects/dialog","Dialogs/G91-Effects.xml",nil];
+dialogsMenu["Militar-Pilot-Assistant"] = ["sim/gui/dialogs/G91/MilitarPilotAssistant/dialog","Dialogs/G91-Militar-Pilot-Assistant.xml",nil];
+dialogsMenu["TestSystemsPlane"] = ["sim/gui/dialogs/G91/TestSystemsPlane/dialog","Dialogs/G91-test.xml",nil];
 
 
 #// Menu listners

@@ -2,7 +2,7 @@
 
 <PropertyList>
     
-    <path>Aircraft/G91-R1B_HD/Models/Parts/Cockpit/Switchs_Lights/push_button_1in_02.ac</path>
+    <path>Models/Parts/Cockpit/Switchs_Lights/push_button_1in_02.ac</path>
         
     <animation>
         <type>noshadow</type>
