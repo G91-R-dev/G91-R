@@ -106,6 +106,46 @@
                 <float n="12" alias="/gear/gear[1]/rollspeed-ms"/>
                 <float n="13" alias="/gear/gear[2]/rollspeed-ms"/>
                 <float n="14" alias="/controls/engines/engine[0]/throttle"/>
+                <!--Canopy-->
+                <float n="15" alias="/fdm/jsbsim/systems/canopy/position"/>
+                <!--Stores-->
+                <float n="16" alias="/fdm/jsbsim/systems/store/stations/sx/external/type"/>
+                <float n="17" alias="/fdm/jsbsim/systems/store/stations/sx/internal/type"/>
+                <float n="18" alias="/fdm/jsbsim/systems/store/stations/dx/external/type"/>
+                <float n="19" alias="/fdm/jsbsim/systems/store/stations/dx/internal/type"/>
+                <!--Hard Points-->
+                <float n="22" alias="/fdm/jsbsim/systems/stations/stationSxInternal/typeHardpoint"/>
+                <float n="23" alias="/fdm/jsbsim/systems/stations/stationDxInternal/typeHardpoint"/>
+                <float n="24" alias="/fdm/jsbsim/systems/stations/stationSxExternal/typeHardpoint"/>
+                <float n="25" alias="/fdm/jsbsim/systems/stations/stationDxExternal/typeHardpoint"/>
+                <!--Nose Wheel-->
+                <float n="26" alias="/fdm/jsbsim/systems/gears/gear[0]/slip-angle-deg-lag"/>
+                <float n="27" alias="/fdm/jsbsim/gear/unit[0]/wheel-speed-fps"/>
+                <float n="28" alias="/fdm/jsbsim/gear/unit[0]/compression-ft"/>
+                <!--Airbrake-->
+                <float n="29" alias="/fdm/jsbsim/systems/airbrake/speedbrake-pos-norm"/>
+                <!--Ailerons-->
+                <float n="30" alias="/fdm/jsbsim/fcs/left-aileron-pos-deg"/>
+                <float n="31" alias="/fdm/jsbsim/fcs/right-aileron-pos-deg"/>
+                <!--Tail-->
+                <float n="32" alias="/fdm/jsbsim/fcs/pitch-deg"/>
+                <float n="33" alias="/fdm/jsbsim/fcs/rudder-deg"/>
+                <!--Drag Chute-->
+                <float n="34" alias="/fdm/jsbsim/systems/dragchute/beta-deg"/>
+                <float n="35" alias="/fdm/jsbsim/systems/dragchute/alpha-deg"/>
+                <float n="36" alias="/fdm/jsbsim/systems/dragchute/open-big-chute"/>
+                <float n="37" alias="/fdm/jsbsim/systems/dragchute/open-little-chute"/>
+                <float n="38" alias="/fdm/jsbsim/systems/dragchute/door-chute"/>
+                <int n="7" alias="/fdm/jsbsim/systems/dragchute/active"/>
+                <!--armyTypeFuse and armyTypeSpecial-->
+                <string n="11" alias="/fdm/jsbsim/systems/stations/stationSxInternal/armyTypeFuse"/>
+                <string n="12" alias="/fdm/jsbsim/systems/stations/stationSxInternal/armyTypeSpecial"/>
+                <string n="13" alias="/fdm/jsbsim/systems/stations/stationDxInternal/armyTypeFuse"/>
+                <string n="14" alias="/fdm/jsbsim/systems/stations/stationDxInternal/armyTypeSpecial"/>
+                <string n="15" alias="/fdm/jsbsim/systems/stations/stationSxExternal/armyTypeFuse"/>
+                <string n="16" alias="/fdm/jsbsim/systems/stations/stationSxExternal/armyTypeSpecial"/>
+                <string n="17" alias="/fdm/jsbsim/systems/stations/stationDxExternal/armyTypeFuse"/>
+                <string n="18" alias="/fdm/jsbsim/systems/stations/stationDxExternal/armyTypeSpecial"/>
                 <!-- Lights -->
 
                 <!-- MP for models parts -->
@@ -215,6 +255,7 @@
             <file>Nasal/AB-camera/ab-camera.nas</file>
             <file>Models/Parts/Accessories/StandIlluminator.nas</file>
             <file>Models/Parts/Accessories/LEMIR14.nas</file>
+	        <file>Models/Parts/Auxiliaries.nas</file>
         </general>
         
         <canvas_gauges>

@@ -104,7 +104,7 @@
         <object-name>mirror</object-name>
         <object-name>mirror_support</object-name>
         <object-name>screw_mirror</object-name>
-        <property>fdm/jsbsim/systems/canopy/position</property>
+        <property>sim/G91/canopy/position</property>
         <factor>45</factor>
         <center>
             <x-m>-1.50104</x-m>
