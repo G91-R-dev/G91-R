@@ -595,7 +595,7 @@
     <animation>
         <type>rotate</type>
         <object-name>D_equilibratore_sx.002</object-name>
-        <property>fdm/jsbsim/fcs/pitch-deg</property>
+        <property>sim/G91/control-surfaces/pitch-deg</property>
         <factor>-1</factor>
         <axis>
             <x1-m> 3.81291 </x1-m>
@@ -610,7 +610,7 @@
     <animation>
         <type>rotate</type>
         <object-name>D_equilibratore_dx</object-name>
-        <property>fdm/jsbsim/fcs/pitch-deg</property>
+        <property>sim/G91/control-surfaces/pitch-deg</property>
         <factor>1</factor>
         <axis>
             <x1-m> 3.81291 </x1-m>
@@ -667,7 +667,7 @@
         <object-name>D_DADI_Plate_vertical_wing</object-name>
         <object-name>D_DADI_Plate_vertical_wing_01</object-name>
         <object-name>DADI.027</object-name>
-        <property>fdm/jsbsim/fcs/rudder-deg</property>
+        <property>sim/G91/control-surfaces/rudder-deg</property>
         <factor>-1</factor>
         <axis>
             <x1-m> 4.22196 </x1-m>
@@ -684,7 +684,7 @@
         <object-name>D_bar_node3.001</object-name>
         <object-name>D_bar_node2.001</object-name>
         <object-name>D_DADI_Plate_vertical_wing_01.001</object-name>
-        <property>fdm/jsbsim/fcs/rudder-deg</property>
+        <property>sim/G91/control-surfaces/rudder-deg</property>
         <factor>0.3</factor>
         <axis>
             <x1-m> 4.22196 </x1-m>
@@ -783,7 +783,7 @@
     <animation>
         <type>rotate</type>
         <object-name>A__G91_fuselage_coda.005</object-name>
-        <property>fdm/jsbsim/systems/dragchute/door-chute</property>
+        <property>sim/G91/dragchute/door-chute</property>
         <factor>120</factor>
         <axis>
             <x1-m> 4.75524 </x1-m>
@@ -799,7 +799,7 @@
         <path>Models/Parts/Tail/Dragchute.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/dragchute/active</property>
+                <property>sim/G91/dragchute/active</property>
                 <value>1</value>
             </equals>
         </condition>

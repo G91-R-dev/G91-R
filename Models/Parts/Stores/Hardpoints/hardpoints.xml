@@ -51,18 +51,18 @@
         <object-name>hp_sx_int_01_internal</object-name>
         <condition>
             <equals>
-                <property>/fdm/jsbsim/systems/stations/stationSxInternal/typeHardpoint</property>
+                <property>sim/G91/stores/stations/stationSxInternal/typeHardpoint</property>
                 <value>1</value>
             </equals>
         </condition>
     </animation>
     
     <animation>
-        <type>select</type>>
+        <type>select</type>
         <object-name>hp_dx_int_01_internal</object-name>
         <condition>
             <equals>
-                <property>/fdm/jsbsim/systems/stations/stationDxInternal/typeHardpoint</property>
+                <property>sim/G91/stores/stations/stationDxInternal/typeHardpoint</property>
                 <value>1</value>
             </equals>
         </condition>
@@ -73,7 +73,7 @@
         <object-name>hp_sx_int_01_external</object-name>
         <condition>
             <equals>
-                <property>/fdm/jsbsim/systems/stations/stationSxExternal/typeHardpoint</property>
+                <property>sim/G91/stores/stations/stationSxExternal/typeHardpoint</property>
                 <value>1</value>
             </equals>
         </condition>
@@ -84,7 +84,7 @@
         <object-name>hp_dx_int_01_external</object-name>
         <condition>
             <equals>
-                <property>/fdm/jsbsim/systems/stations/stationDxExternal/typeHardpoint</property>
+                <property>sim/G91/stores/stations/stationDxExternal/typeHardpoint</property>
                 <value>1</value>
             </equals>
         </condition>
@@ -97,7 +97,7 @@
         <object-name>hp_dx_int_PAN_separator</object-name>
         <condition>
             <equals>
-                <property>/fdm/jsbsim/systems/stations/stationDxInternal/typeHardpoint</property>
+                <property>sim/G91/stores/stations/stationDxInternal/typeHardpoint</property>
                 <value>2</value>
             </equals>
         </condition>
@@ -110,7 +110,7 @@
         <object-name>hp_sx_int_PAN_separator</object-name>
         <condition>
             <equals>
-                <property>/fdm/jsbsim/systems/stations/stationSxInternal/typeHardpoint</property>
+                <property>sim/G91/stores/stations/stationSxInternal/typeHardpoint</property>
                 <value>2</value>
             </equals>
         </condition>

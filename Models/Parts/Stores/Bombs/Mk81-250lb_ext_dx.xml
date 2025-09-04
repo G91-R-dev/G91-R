@@ -38,7 +38,7 @@
         <object-name>fuze-3 (Meshed)</object-name>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/stations/stationDxExternal/armyTypeFuse</property>
+                <property>sim/G91/stores/stations/stationDxExternal/armyTypeFuse</property>
                 <value>0</value>
             </equals>
         </condition>
@@ -53,7 +53,7 @@
         <object-name>fuze-4-typeB (Meshed)</object-name>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/stations/stationDxExternal/armyTypeFuse</property>
+                <property>sim/G91/stores/stations/stationDxExternal/armyTypeFuse</property>
                 <value>1</value>
             </equals>
         </condition>
@@ -70,7 +70,7 @@
         <object-name>air-brake-surfice-4 (Meshed)</object-name>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/stations/stationDxExternal/armyTypeSpecial</property>
+                <property>sim/G91/stores/stations/stationDxExternal/armyTypeSpecial</property>
                 <value>1</value>
             </equals>
         </condition>
@@ -81,7 +81,7 @@
         <object-name>body-tail (Meshed)</object-name>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/stations/stationDxExternal/armyTypeSpecial</property>
+                <property>sim/G91/stores/stations/stationDxExternal/armyTypeSpecial</property>
                 <value>0</value>
             </equals>
         </condition>

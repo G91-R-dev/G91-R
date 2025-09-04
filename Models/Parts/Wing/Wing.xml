@@ -1445,7 +1445,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Aileron-sx</object-name>
-        <property>/fdm/jsbsim/fcs/left-aileron-pos-deg</property>
+        <property>sim/G91/control-surfaces/left-aileron-pos-deg</property>
         <factor>-1</factor>
         <axis>
             <x1-m>1.16247</x1-m>
@@ -1460,7 +1460,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Aileron-dx</object-name>
-        <property>/fdm/jsbsim/fcs/right-aileron-pos-deg</property>
+        <property>sim/G91/control-surfaces/right-aileron-pos-deg</property>
         <factor>1</factor>
         <axis>
             <x1-m>1.16247</x1-m>

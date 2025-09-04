@@ -111,7 +111,7 @@
     <animation>
         <object-name>main_dragchute</object-name>
         <type>rotate</type>
-        <property>fdm/jsbsim/systems/dragchute/beta-deg</property>
+        <property>sim/G91/dragchute/beta-deg</property>
         <factor>1.0</factor>
         <offset-deg>0.0</offset-deg>
         <center>
@@ -129,7 +129,7 @@
     <animation>
         <object-name>main_dragchute</object-name>
         <type>rotate</type>
-        <property>fdm/jsbsim/systems/dragchute/alpha-deg</property>
+        <property>sim/G91/dragchute/alpha-deg</property>
         <factor>1.0</factor>
         <offset-deg>0.0</offset-deg>
         <center>
@@ -147,7 +147,7 @@
     <animation>
         <object-name>little_dragchute</object-name>
         <type>rotate</type>
-        <property>fdm/jsbsim/systems/dragchute/beta-deg</property>
+        <property>sim/G91/dragchute/beta-deg</property>
         <factor>0.2</factor>
         <offset-deg>0.0</offset-deg>
         <center>
@@ -165,7 +165,7 @@
     <animation>
         <object-name>little_dragchute</object-name>
         <type>rotate</type>
-        <property>fdm/jsbsim/systems/dragchute/alpha-deg</property>
+        <property>sim/G91/dragchute/alpha-deg</property>
         <factor>0.2</factor>
         <offset-deg>0.0</offset-deg>
         <center>
@@ -183,7 +183,7 @@
     <animation>
         <type>scale</type>
         <name>big_dragchute</name>
-        <property>fdm/jsbsim/systems/dragchute/open-big-chute</property>
+        <property>sim/G91/dragchute/open-big-chute</property>
         <x-min>0.10</x-min>
         <y-min>1.00</y-min>
         <z-min>0.10</z-min>
@@ -195,7 +195,7 @@
     <animation>
         <type>scale</type>
         <object-name>little_dragchute</object-name>
-        <property>fdm/jsbsim/systems/dragchute/open-little-chute</property>
+        <property>sim/G91/dragchute/open-little-chute</property>
         <x-min>0.10</x-min>
         <y-min>1.00</y-min>
         <z-min>0.10</z-min>

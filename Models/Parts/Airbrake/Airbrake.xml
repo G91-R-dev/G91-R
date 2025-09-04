@@ -214,7 +214,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Airbrake-Dx</object-name>
-        <property>fdm/jsbsim/systems/airbrake/speedbrake-pos-norm</property>
+        <property>sim/G91/airbrake/speedbrake-pos-norm</property>
         <axis>
             <x1-m>-0.94821</x1-m>
             <y1-m>0.41899</y1-m>
@@ -232,7 +232,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Airbrake-Sx</object-name>
-        <property>fdm/jsbsim/systems/airbrake/speedbrake-pos-norm</property>
+        <property>sim/G91/airbrake/speedbrake-pos-norm</property>
         <axis>
             <x1-m>-0.94821</x1-m>
             <y1-m>-0.41899</y1-m>
@@ -250,7 +250,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Torsion-Bar</object-name>
-        <property>fdm/jsbsim/systems/airbrake/speedbrake-pos-norm</property>
+        <property>sim/G91/airbrake/speedbrake-pos-norm</property>
         <center>
             <x-m>-0.77094</x-m>
             <y-m>0.0</y-m>

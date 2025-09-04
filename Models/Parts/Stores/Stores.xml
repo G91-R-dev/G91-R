@@ -15,7 +15,7 @@
         <path>Models/Parts/Stores/Tank/Tank450lb_10_Dx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
+                <property>sim/G91/stores/stations/dx/internal/type</property>
                 <value>10</value>
             </equals>
         </condition>
@@ -25,7 +25,7 @@
         <path>Models/Parts/Stores/Tank/Tank450lb_10_Sx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
+                <property>sim/G91/stores/stations/sx/internal/type</property>
                 <value>10</value>
             </equals>
         </condition>
@@ -35,7 +35,7 @@
         <path>Models/Parts/Stores/Tank/Tank-PAN_11_Dx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
+                <property>sim/G91/stores/stations/dx/internal/type</property>
                 <value>11</value>
             </equals>
         </condition>
@@ -45,7 +45,7 @@
         <path>Models/Parts/Stores/Tank/Tank-PAN_11_Sx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
+                <property>sim/G91/stores/stations/sx/internal/type</property>
                 <value>11</value>
             </equals>
         </condition>
@@ -55,7 +55,7 @@
         <path>Models/Parts/Stores/Tank/Tank900lb_12_Dx.xml</path>
         <condition> 
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
+                <property>sim/G91/stores/stations/dx/internal/type</property>
                 <value>12</value>
             </equals>
         </condition>
@@ -65,7 +65,7 @@
         <path>Models/Parts/Stores/Tank/Tank900lb_12_Sx.xml</path>
         <condition> 
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
+                <property>sim/G91/stores/stations/sx/internal/type</property>
                 <value>12</value>
             </equals>
         </condition>
@@ -77,7 +77,7 @@
         <path>Models/Parts/Stores/Bombs/Mk81-250lb_ext_dx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/dx/external/type</property>
+                <property>sim/G91/stores/stations/dx/external/type</property>
                 <value>20</value>
             </equals>
         </condition>
@@ -92,7 +92,7 @@
         <path>Models/Parts/Stores/Bombs/Mk81-250lb_int_dx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
+                <property>sim/G91/stores/stations/dx/internal/type</property>
                 <value>20</value>
             </equals>
         </condition>
@@ -102,7 +102,7 @@
         <path>Models/Parts/Stores/Bombs/Mk81-250lb_int_sx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
+                <property>sim/G91/stores/stations/sx/internal/type</property>
                 <value>20</value>
             </equals>
         </condition>
@@ -112,7 +112,7 @@
         <path>Models/Parts/Stores/Bombs/Mk81-250lb_ext_sx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/sx/external/type</property>
+                <property>sim/G91/stores/stations/sx/external/type</property>
                 <value>20</value>
             </equals>
         </condition>
@@ -124,7 +124,7 @@
         <path>Models/Parts/Stores/Bombs/Mk82-500lb_int_dx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/dx/internal/type</property>
+                <property>sim/G91/stores/stations/dx/internal/type</property>
                 <value>21</value>
             </equals>
         </condition>
@@ -134,7 +134,7 @@
         <path>Models/Parts/Stores/Bombs/Mk82-500lb_int_sx.xml</path>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/store/stations/sx/internal/type</property>
+                <property>sim/G91/stores/stations/sx/internal/type</property>
                 <value>21</value>
             </equals>
         </condition>

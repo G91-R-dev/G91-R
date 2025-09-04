@@ -29,7 +29,7 @@
         <object-name>fuse-4 (Meshed)</object-name>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/stations/stationDxInternal/armyTypeFuse</property>
+                <property>sim/G91/stores/stations/stationDxInternal/armyTypeFuse</property>
                 <value>0</value>
             </equals>
         </condition>
@@ -44,7 +44,7 @@
         <object-name>fuse-4-typeB (Meshed)</object-name>
         <condition>
             <equals>
-                <property>fdm/jsbsim/systems/stations/stationDxInternal/armyTypeFuse</property>
+                <property>sim/G91/stores/stations/stationDxInternal/armyTypeFuse</property>
                 <value>1</value>
             </equals>
         </condition>
