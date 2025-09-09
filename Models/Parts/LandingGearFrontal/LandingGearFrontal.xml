@@ -895,7 +895,7 @@
         <object-name>gear-front-jack-014</object-name>
         <object-name>gear-front-jack-015</object-name>
         <object-name>gear-front-jack-015.002</object-name>
-        <property>fdm/jsbsim/gear/unit[0]/compression-ft</property>
+        <property>sim/G91/gear/unit[0]/compression-ft</property>
         <center>
             <x-m>-3.0297</x-m>
             <y-m>0   </y-m>
@@ -919,7 +919,7 @@
     <animation>
         <type>translate</type>
         <object-name>Cylinder.005</object-name>
-        <property>fdm/jsbsim/gear/unit[0]/compression-ft</property>
+        <property>sim/G91/gear/unit[0]/compression-ft</property>
         <axis>
             <x>0</x>
             <y>0</y>
@@ -938,7 +938,7 @@
         <type>rotate</type>
         <object-name>GearPivot</object-name>
         <object-name>GearWheel</object-name>
-        <property>fdm/jsbsim/systems/gears/gear[0]/slip-angle-deg-lag</property>
+        <property>sim/G91/gear/unit[0]/nws/</property>
         <factor>1.0</factor>
         <axis>
             <x1-m>  -2.87</x1-m>
@@ -957,22 +957,22 @@
         <object-name>gear-front-jack-015</object-name>
         <object-name>gear-front-jack-015.002</object-name>
         <object-name>gear-front-jack-014</object-name>
-        <property>fdm/jsbsim/gear/unit[0]/wheel-speed-fps</property>
+        <property>sim/G91/gear/unit[0]/wheel-speed-fps</property>
         <factor>-30</factor>
         <condition>
             <and>
                 <or>
                     <greater-than>
-                        <property>fdm/jsbsim/gear/unit[0]/wheel-speed-fps</property>
+                        <property>sim/G91/gear/unit[0]/wheel-speed-fps</property>
                         <value>0.001</value>
                     </greater-than>
                     <less-than>
-                        <property>fdm/jsbsim/gear/unit[0]/wheel-speed-fps</property>
+                        <property>sim/G91/gear/unit[0]/wheel-speed-fps</property>
                         <value>-0.001</value>
                     </less-than>
                 </or>
                 <greater-than>
-                    <property>fdm/jsbsim/gear/unit[0]/compression-ft</property>
+                    <property>sim/G91/gear/unit[0]/compression-ft</property>
                     <value>0</value>
                 </greater-than>
             </and>
