@@ -1,38 +1,45 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"  encoding="utf-8"?>
 
 <PropertyList>
-    
+
     <name>Engine_dialog</name>
     <layout>vbox</layout>
     <default-padding>7</default-padding>
-    <modal>false</modal>
-    <width>600</width>
-    
-    <!-- title bar -->
+    <modal type="bool">false</modal>
+    <width>700</width>
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
-            <label>Engine operation</label>
+            <label>Engine Start/Stop</label>
         </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
         <button>
-            <legend/>
-            <key>Esc</key>
             <pref-width>16</pref-width>
             <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
             <border>2</border>
             <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
             </binding>
         </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -58,7 +65,7 @@
             <button>
                 <row>0</row>
                 <col>1</col>
-                <legend>Fast mode</legend>
+                <legend>Engine fast start</legend>
                 <halign>fill</halign>
                 <live>true</live>
                 <pref-width>100</pref-width>
@@ -136,9 +143,9 @@
             </text>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -272,7 +279,7 @@
     </group>
 
     <hrule/>
-    
+
 </PropertyList>
-    
-    
+
+

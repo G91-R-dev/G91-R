@@ -1,23 +1,49 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-    
+
     <name>Acro_dialog</name>
     <layout>vbox</layout>
     <default-padding>7</default-padding>
-    <modal>false</modal>
+    <modal type="bool">false</modal>
     <width>400</width>
-    
-    <!-- title bar -->
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
-            <label>Acrobatic configuration</label>
+            <label>Acrobatics Configuration</label>
         </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
+        <button>
+            <pref-width>16</pref-width>
+            <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
+            <border>2</border>
+            <binding>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
+            </binding>
+        </button>
+    </group>
+
+    <hrule/>
+
+    <group>
+        <layout>hbox</layout>
         <text>
-            <label>Activate</label>
+            <label>Activate Smoke</label>
             <halign>right</halign>
         </text>
         <checkbox>
@@ -28,23 +54,10 @@
                 <command>dialog-apply</command>
             </binding>
         </checkbox>
-        <button>
-            <legend/>
-            <key>Esc</key>
-            <pref-width>16</pref-width>
-            <pref-height>16</pref-height>
-            <border>2</border>
-            <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
-            </binding>
-        </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -62,14 +75,14 @@
             </button>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
             <layout>table</layout>
-            
+
             <text>
                 <row>0</row>
                 <col>0</col>
@@ -88,7 +101,7 @@
                 <property>sim/G91/smoke/acrobatic/shutter</property>
                 <min>0</min>
                 <max>1000</max>
-                <step>10</step>  
+                <step>10</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -106,7 +119,7 @@
                     <blue>0.9</blue>
                 </color>
             </text>
-            
+
             <text>
                 <row>1</row>
                 <col>0</col>
@@ -125,7 +138,7 @@
                 <property>sim/G91/smoke/acrobatic/duration</property>
                 <min>1</min>
                 <max>100</max>
-                <step>1</step>  
+                <step>1</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -143,7 +156,7 @@
                     <blue>0.9</blue>
                 </color>
             </text>
-            
+
             <text>
                 <row>2</row>
                 <col>0</col>
@@ -162,7 +175,7 @@
                 <property>sim/G91/smoke/acrobatic/dispersion</property>
                 <min>-10</min>
                 <max>10</max>
-                <step>1</step>  
+                <step>1</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -182,9 +195,9 @@
             </text>
         </group>
     </group>
-        
+
     <hrule/>
-    
+
     <group>
         <text>
             <label>Colours configuration</label>
@@ -194,9 +207,9 @@
             <layout>table</layout>
         </group>
     </group>
-        
+
     <hrule/>
-        
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -217,7 +230,7 @@
                     <command>dialog-apply</command>
                 </binding>
             </checkbox>
-            
+
             <text>
                 <label>Green</label>
                 <halign>right</halign>
@@ -234,7 +247,7 @@
                     <command>dialog-apply</command>
                 </binding>
             </checkbox>
-            
+
             <text>
                 <label>Blue</label>
                 <halign>right</halign>
@@ -251,11 +264,8 @@
                     <command>dialog-apply</command>
                 </binding>
             </checkbox>
-            
+
         </group>
     </group>
-        
+
 </PropertyList>
-    
-    
-    

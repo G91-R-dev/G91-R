@@ -5,11 +5,11 @@ G91_Params.xml
 -->
 
 <PropertyList>
-    
+
     <popup>
         <welcome type="int">1</welcome>
     </popup>
-    
+
     <nasal>
         <modules>
             <set-active-autopilot type="int">0</set-active-autopilot>
@@ -31,9 +31,9 @@ G91_Params.xml
     </models>
 
     <name type="string" n="0">Liveries</name>
-    
+
     <liveries>
-        
+
         <active>
             <id userarchive="y" type="int">1</id>
             <resolution-set userarchive="y" type="int">2</resolution-set>
@@ -52,7 +52,7 @@ G91_Params.xml
             <recognition_gauges type="int">0</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </active>
-        
+
         <!-- For correct identification ref:
             http://www.forgottenjets.warbirdsresourcegroup.org/G-91.html
         -->
@@ -82,7 +82,7 @@ G91_Params.xml
             <recognition_gauges type="int">0</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="2">
             <reloads type="float">0.0</reloads>
             <id type="int">2</id>
@@ -108,7 +108,7 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="3">
             <id type="int">3</id>
             <reloads type="float">0.0</reloads>
@@ -134,7 +134,7 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="4">
             <id type="int">4</id>
             <reloads type="float">0.0</reloads>
@@ -160,7 +160,7 @@ G91_Params.xml
             <recognition_gauges type="int">0</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="5">
             <id type="int">5</id>
             <reloads type="float">0.0</reloads>
@@ -189,7 +189,7 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">1</advanced_gauges>
         </livery>
-        
+
         <livery n="6">
             <id type="int">6</id>
             <reloads type="float">0.0</reloads>
@@ -215,7 +215,7 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="7">
             <id type="int">7</id>
             <reloads type="float">0.0</reloads>
@@ -241,7 +241,7 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="8">
             <id type="int">8</id>
             <reloads type="float">0.0</reloads>
@@ -293,7 +293,7 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
         <livery n="10">
             <id type="int">10</id>
             <reloads type="float">0.0</reloads>
@@ -371,9 +371,9 @@ G91_Params.xml
             <recognition_gauges type="int">1</recognition_gauges>
             <advanced_gauges type="int">0</advanced_gauges>
         </livery>
-        
+
     </liveries>
-    
+
     <internal>
         <effect>
             <luminosity type="float">-0.04</luminosity>
@@ -383,7 +383,7 @@ G91_Params.xml
             <fresnel type="float">0.00</fresnel>
         </effect>
     </internal>
-    
+
     <smoke>
         <acrobatic>
             <on type="float">0.0</on>
@@ -395,7 +395,7 @@ G91_Params.xml
             <blue type="float">1.0</blue>
         </acrobatic>
     </smoke>
-    
+
     <lights>
         <gauges>
             <red_type_a type="float">0.8</red_type_a>
@@ -409,7 +409,7 @@ G91_Params.xml
             <yellow_type_c type="float">2.4</yellow_type_c>
         </gauges>
     </lights>
-    
+
     <accessories>
         <staircase type="int">1</staircase>
         <standIlluminators>
@@ -461,7 +461,7 @@ G91_Params.xml
             <isOpenWhenStart type="int">1</isOpenWhenStart>
         </canopy>
     </accessories>
-    
+
     <switchs>
         <ArmyPanels>
             <ArmyPanelDx_timing type="float">0</ArmyPanelDx_timing>
@@ -474,12 +474,12 @@ G91_Params.xml
             <FuelPanelsFrontDx_timing type="float">0</FuelPanelsFrontDx_timing>
         </FuelPanels>
     </switchs>
-    
+
     <aux>
          <true type="int">1</true>
          <false type="int">0</false>
     </aux>
-    
+
     <parts>
         <cloche>
             <show type="int">1</show>
@@ -488,7 +488,7 @@ G91_Params.xml
             <show type="int">1</show>
         </SFOM_83A>
     </parts>
-    
+
     <configuration>
         <inertia>
             <modifier>
@@ -516,11 +516,6 @@ G91_Params.xml
         </compositor>
     </configuration>
 
-    <menu>
-        <active type="string">F1Menu</active>
-        <command type="int">0</command>
-    </menu>
-    
 </PropertyList>
 
 

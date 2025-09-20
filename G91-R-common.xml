@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList include="Nasal/fgcamera/fgcamera_cfg.xml">
 
@@ -176,22 +176,129 @@
             <default n="0">
                 <menu n="100">
                     <label>Fiat G.91R</label>
-                    <enabled type="bool">true</enabled>
-                    <item>
-                        <label>Configuration Dialogs</label>
+                    <item n="1">
+                        <label>Engine Start/Stop</label>
+                        <name>Engine_dialog_menu_item</name>
                         <binding>
-                            <command>property-assign</command>
-                            <property>sim/G91/menu/command</property>
-                            <value>1</value>
+                            <command>dialog-show</command>
+                            <dialog-name>Engine_dialog</dialog-name>
                         </binding>
                     </item>
-                    <item>
-                        <label>Systems Tests</label>
+
+                    <item n="2">
+                        <label>Configuration</label>
+                        <name>Configuration_dialog_menu_item</name>
                         <binding>
-                            <command>nasal</command>
-                            <script>
-                                setprop("sim/G91/menu/menuActive","TestSystemsPlane");
-                            </script>
+                            <command>dialog-show</command>
+                            <dialog-name>Configuration_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="3">
+                        <label>Electric Systems</label>
+                        <name>Electric_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>Electric_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="4">
+                        <label>Accessories</label>
+                        <name>Accessories_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>Accessories_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="5">
+                        <label>Acrobatics Configuration</label>
+                        <name>Acro_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>Acro_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="6">
+                        <label>JATO System</label>
+                        <name>JATO_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>JATO_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="7">
+                        <label>Effects</label>
+                        <name>Effects_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>Effects_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="8">
+                        <label>Livery</label>
+                        <name>Livery_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>Livery_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="9">
+                        <label>PHI Gauge Route Selector</label>
+                        <name>PHI_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>PHI_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="10">
+                        <label>PTR 175 Radio</label>
+                        <name>PTR175_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>PTR175_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="11">
+                        <label>Find Nearby Radios</label>
+                        <name>Radio_Near_Selector_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>Radio_Near_Selector_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="12">
+                        <label>Pilot Assistant</label>
+                        <name>pilot_assistant_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>pilot_assistant_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                    <item n="13">
+                        <label>Military Pilot Assistant</label>
+                        <name>military_assistant_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>military_assistant_dialog</dialog-name>
+                        </binding>
+                    </item>
+
+                     <item n="14">
+                        <label>System Tests</label>
+                        <name>system_tests_dialog_menu_item</name>
+                        <binding>
+                            <command>dialog-show</command>
+                            <dialog-name>system_tests_dialog</dialog-name>
                         </binding>
                     </item>
                 </menu>
@@ -208,7 +315,6 @@
 
         <general>
             <file>Nasal/init.nas</file>
-            <file>Nasal/menu.nas</file>
             <!-- Generic -->
             <file>Nasal/Ambient/ambient_data.nas</file>
             <file>Nasal/Engine/engine_red_emission.nas</file>

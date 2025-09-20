@@ -5,47 +5,51 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
 -->
 
 <PropertyList>
-    
+
     <name>Livery_dialog</name>
     <layout>vbox</layout>
     <default-padding>7</default-padding>
     <modal>false</modal>
     <width>600</width>
-    
-    <!-- title bar -->
-    
-    <empty><stretch>true</stretch></empty>
-    
-    
+
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
-            <label>Livery configuration</label>
+            <label>Livery Configuration</label>
         </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
         <button>
-            <legend/>
-            <key>Esc</key>
             <pref-width>16</pref-width>
             <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
             <border>2</border>
             <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
             </binding>
         </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
             <layout>table</layout>
-            
+
             <button>
                 <row>0</row>
                 <col>0</col>
@@ -63,7 +67,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>PAN - National Aerobatic Pinocchio nose (R1)</label>
                 <halign>left</halign>
             </text>
-            
+
             <button>
                 <row>0</row>
                 <col>2</col>
@@ -99,7 +103,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>Italian Air Force - 2nd flight flock n. 37 (R1B)</label>
                 <halign>left</halign>
             </text>
-            
+
             <button>
                 <row>3</row>
                 <col>0</col>
@@ -153,7 +157,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>Silver version, prototype Pinocchio nose (R1)</label>
                 <halign>left</halign>
             </text>
-            
+
             <button>
                 <row>5</row>
                 <col>2</col>
@@ -171,7 +175,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>R1B recognition nose (R1B)</label>
                 <halign>left</halign>
             </text>
-            
+
             <button>
                 <row>7</row>
                 <col>0</col>
@@ -189,7 +193,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>Portuguese R3 esq 301 (R3)</label>
                 <halign>left</halign>
             </text>
-            
+
             <button>
                 <row>7</row>
                 <col>2</col>
@@ -207,7 +211,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>Jaguares</label>
                 <halign>left</halign>
             </text>
-            
+
             <button>
                 <row>9</row>
                 <col>0</col>
@@ -261,12 +265,12 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <label>USAF R3 US Army 2x30 mm</label>
                 <halign>left</halign>
             </text>
-            
+
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -284,7 +288,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/diffuse</property>
                 <min>0</min>
                 <max>1</max>
-                <step>0.01</step>  
+                <step>0.01</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -303,7 +307,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 </color>
                 <property>sim/G91/liveries/active/diffuse</property>
             </text>
-            
+
             <text>
                 <row>1</row>
                 <col>0</col>
@@ -317,7 +321,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/specular</property>
                 <min>0</min>
                 <max>1</max>
-                <step>0.01</step>  
+                <step>0.01</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -396,12 +400,12 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 </color>
                 <property>sim/G91/liveries/active/normalmap_enabled-Msg</property>
             </text>
-            
+
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -439,7 +443,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/resolution-set</property>
                 <min>1</min>
                 <max>4</max>
-                <step>1</step>  
+                <step>1</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -484,7 +488,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
         <layout>vbox</layout>
         <group>
             <layout>table</layout>
-    
+
             <text>
                 <row>0</row>
                 <col>0</col>
@@ -586,7 +590,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/symbol_y_sx</property>
                 <min>0.0</min>
                 <max>1.0</max>
-                <step>0.001</step>  
+                <step>0.001</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -625,7 +629,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                     <value>1</value>
                 </binding>
             </radio>
-            
+
             <text>
                 <row>2</row>
                 <col>0</col>
@@ -644,7 +648,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/symbol_x_dx</property>
                 <min>0.0</min>
                 <max>1.0</max>
-                <step>0.001</step>  
+                <step>0.001</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -685,7 +689,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/symbol_y_dx</property>
                 <min>0.0</min>
                 <max>1.0</max>
-                <step>0.001</step>  
+                <step>0.001</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -742,7 +746,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                 <property>sim/G91/liveries/active/symbol_scale</property>
                 <min>0.1</min>
                 <max>2.0</max>
-                <step>0.001</step>  
+                <step>0.001</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -765,7 +769,7 @@ http://wiki.flightgear.org/Howto:Adding_a_canvas_to_a_GUI_dialog
                     <blue>0.0</blue>
                 </color>
             </text>
-            
+
         </group>
     </group>
     -->

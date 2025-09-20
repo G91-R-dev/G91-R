@@ -1,64 +1,45 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-    
-    <name>militar-pilot-assistant</name>
+
+    <name>military_assistant_dialog</name>
     <layout>vbox</layout>
     <default-padding>8</default-padding>
-    <modal>false</modal>
+    <modal type="bool">false</modal>
     <width>1024</width>
-    
-    <!-- title bar -->
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
-            <label>Militar Pilot Assistant</label>
+            <label>Military Pilot Assistant</label>
         </text>
-        <empty><stretch>true</stretch></empty>
-        <!--
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
         <button>
-            <legend/>
             <pref-width>16</pref-width>
             <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
             <border>2</border>
-            <color>
-                <red>0.9</red>
-                <green>0.9</green>
-                <blue>0.0</blue>
-            </color>
             <binding>
-                <command>nasal</command>
-                <script>
-                    <![CDATA[
-                        var targets_scan_node = props.globals.getNode("/fdm/jsbsim/systems/autopilot/gui/interception-list");
-                        if (targets_scan_node != nil) {
-                            targets_scan_node.removeChild("airplanes",0);
-                            targets_scan_node.setValue("airplane","");
-                            debug.dump(targets_scan_node);
-                        }
-                    ]]>
-                </script>
+                <command>dialog-close</command>
             </binding>
-        </button>
-        -->
-        <button>
-            <legend/>
-            <key>Esc</key>
-            <pref-width>16</pref-width>
-            <pref-height>16</pref-height>
-            <border>2</border>
             <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
+                <command>dialog-apply</command>
             </binding>
         </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>hbox</layout>
         <group>
@@ -278,12 +259,12 @@
             </text>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>hbox</layout>
-        
+
         <group>
             <layout>table</layout>
             <text>

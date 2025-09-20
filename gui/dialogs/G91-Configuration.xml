@@ -1,39 +1,46 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-    
+
     <name>Configuration_dialog</name>
     <layout>vbox</layout>
     <default-padding>7</default-padding>
-    <modal>false</modal>
+    <modal type="bool">false</modal>
     <width>1024</width>
-    
-    <!-- title bar -->
+
+
     <group>
         <layout>hbox</layout>
-        <default-padding>8</default-padding>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
             <label>Configuration</label>
         </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
         <button>
-            <legend/>
-            <key>Esc</key>
             <pref-width>16</pref-width>
             <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
             <border>2</border>
             <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
             </binding>
         </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -354,9 +361,9 @@
             </text>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -426,7 +433,7 @@
                 <property>fdm/jsbsim/systems/hydraulics/lost-performance-system</property>
                 <min>0.1</min>
                 <max>1.0</max>
-                <step>0.01</step>  
+                <step>0.01</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -446,9 +453,9 @@
             </text>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -601,9 +608,9 @@
             </radio>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -728,8 +735,9 @@
                 </binding>
             </radio>
         </group>
+    </group>
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -1312,4 +1320,4 @@
         </group>
     </group>
     -->
-</PropertyList> 
+</PropertyList>

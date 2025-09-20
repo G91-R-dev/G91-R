@@ -1,26 +1,46 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-    
-    <name>pilot-assistant menu</name>
+
+    <name>pilot_assistant_dialog</name>
     <layout>vbox</layout>
     <default-padding>8</default-padding>
-    <modal>false</modal>
+    <modal type="bool">false</modal>
     <width>1024</width>
-    
-    <!-- title bar -->
+
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
-            <pref-width>100</pref-width>
-            <label> </label>
+            <label>Pilot Assistant</label>
         </text>
-        <text>
-            <pref-width>200</pref-width>
-            <label>Pilot assistant menu</label>
-        </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
+        <button>
+            <pref-width>16</pref-width>
+            <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
+            <border>2</border>
+            <binding>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
+            </binding>
+        </button>
+    </group>
+
+    <group>
+        <layout>hbox</layout>
         <radio>
             <label>Yaw damper</label>
             <halign>left</halign>
@@ -68,24 +88,10 @@
                 <blue>0.0</blue>
             </color>
         </text>
-        <empty><stretch>true</stretch></empty>
-        <button>
-            <legend/>
-            <key>Esc</key>
-            <pref-width>16</pref-width>
-            <pref-height>16</pref-height>
-            <border>2</border>
-            <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
-            </binding>
-        </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>hbox</layout>
         <group>
@@ -504,9 +510,9 @@
                 </button>
             </group>
         </group>
-        
+
         <vrule/>
-        
+
         <group>
             <!-- Pitch/Altitude -->
             <layout>vbox</layout>
@@ -992,8 +998,8 @@
                             setprop("fdm/jsbsim/systems/autopilot/gui/altitude-QFE",0.0);
                             setprop("fdm/jsbsim/systems/autopilot/gui/pitch-angle-deg",6.0);
                             setprop("fdm/jsbsim/systems/autopilot/gui/speed-control",1.0);
-                            if (getprop("fdm/jsbsim/systems/autopilot/gui/vertical-speed") == 0 and 
-                                getprop("fdm/jsbsim/systems/autopilot/gui/pitch-angle") == 0 and 
+                            if (getprop("fdm/jsbsim/systems/autopilot/gui/vertical-speed") == 0 and
+                                getprop("fdm/jsbsim/systems/autopilot/gui/pitch-angle") == 0 and
                                 getprop("fdm/jsbsim/systems/autopilot/gui/pitch-alpha") == 0) {
                                 setprop("fdm/jsbsim/systems/autopilot/gui/vertical-speed",1);
                                 if (math.abs(getprop("fdm/jsbsim/systems/autopilot/gui/vertical-speed-fpm")) < 100.0) {
@@ -1048,9 +1054,9 @@
             </group>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <!-- Speed contrl -->
     <group>
         <layout>vbox</layout>
@@ -1497,9 +1503,9 @@
                 </binding>
             </radio>
         </group>
-        
+
         <hrule/>
-        
+
         <group>
             <layout>table</layout>
             <text>
@@ -1670,9 +1676,9 @@
                 </color>
             </text>
         </group>
-        
+
         <hrule/>
-        
+
         <group>
             <layout>table</layout>
             <button>
@@ -1787,11 +1793,11 @@
                     <command>dialog-apply</command>
                 </binding>
             </input>
-            
+
         </group>
-        
+
         <hrule/>
-        
+
         <group>
             <layout>table</layout>
             <button>
@@ -2119,9 +2125,9 @@
                 </binding>
             </radio>
         </group>
-        
+
         <hrule/>
-        
+
         <group>
             <!-- Autolanding Airport selector -->
             <layout>table</layout>
@@ -2338,7 +2344,7 @@
                 </color>
             </text>
         </group>
-        
+
         <group>
             <!-- Autolanding status -->
             <layout>table</layout>
@@ -2486,7 +2492,7 @@
                 </color>
             </text>
         </group>
-            
+
         <group>
             <!-- Autolanding parameters -->
             <layout>table</layout>
@@ -2653,13 +2659,13 @@
                 </color>
             </text>
         </group>
-    
+
         <!-- PID configurator -->
         <!--
         <hrule/>
         <group>
             <layout>table</layout>
-            
+
             <text>
                 <label>Pitch angle</label>
                 <halign>left</halign>
@@ -2770,7 +2776,7 @@
                     <blue>0.9</blue>
                 </color>
             </text>
-            
+
             <text>
                 <label>Vertical speed</label>
                 <halign>left</halign>
@@ -2881,7 +2887,7 @@
                     <blue>0.9</blue>
                 </color>
             </text>
-            
+
             <text>
                 <label>Throttle</label>
                 <halign>left</halign>
@@ -3008,7 +3014,7 @@
                     <blue>0.9</blue>
                 </color>
             </text>
-            
+
             <text>
                 <label>Alt. hold</label>
                 <halign>left</halign>
@@ -3119,7 +3125,7 @@
                     <blue>0.9</blue>
                 </color>
             </text>
-            
+
             <text>
                 <label>Landig PID</label>
                 <halign>left</halign>

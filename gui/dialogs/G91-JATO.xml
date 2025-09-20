@@ -1,38 +1,46 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-    
+
     <name>JATO_dialog</name>
     <layout>vbox</layout>
     <default-padding>7</default-padding>
     <modal>false</modal>
     <width>400</width>
-    
-    <!-- title bar -->
+
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
             <label>JATO System</label>
         </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
         <button>
-            <legend/>
-            <key>Esc</key>
             <pref-width>16</pref-width>
             <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
             <border>2</border>
             <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
             </binding>
         </button>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -44,7 +52,7 @@
                 <property>fdm/jsbsim/systems/jato/request-to-mount</property>
                 <min>0.0</min>
                 <max>4.0</max>
-                <step>2</step>  
+                <step>2</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -70,9 +78,9 @@
             </text>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -90,9 +98,9 @@
             </button>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -117,9 +125,9 @@
             </button>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
@@ -153,7 +161,7 @@
                 <property>fdm/jsbsim/systems/jato/autostart-speed</property>
                 <min>40</min>
                 <max>500</max>
-                <step>10</step>  
+                <step>10</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -174,6 +182,6 @@
             </text>
         </group>
     </group>
-    
+
 </PropertyList>
 

@@ -1,36 +1,43 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
-    
+
     <name>Electric_dialog</name>
     <layout>vbox</layout>
     <default-padding>7</default-padding>
-    <modal>false</modal>
+    <modal type="bool">false</modal>
     <width>900</width>
-    
-    <!-- title bar -->
+
     <group>
         <layout>hbox</layout>
-        <empty><stretch>true</stretch></empty>
+        <empty>
+            <stretch>1</stretch>
+        </empty>
         <text>
-            <label>Electric System</label>
+            <label>Electric Systems</label>
         </text>
-        <empty><stretch>true</stretch></empty>
+
+        <empty>
+            <stretch>1</stretch>
+        </empty>
+
         <button>
-            <legend/>
-            <key>Esc</key>
             <pref-width>16</pref-width>
             <pref-height>16</pref-height>
+            <legend></legend>
+
+            <default>1</default>
+            <keynum>27</keynum>
             <border>2</border>
             <binding>
-                <command>nasal</command>
-                <script>
-                    setprop("sim/G91/menu/command",2);
-                </script>
+                <command>dialog-close</command>
+            </binding>
+            <binding>
+                <command>dialog-apply</command>
             </binding>
         </button>
     </group>
-    
+
     <hrule/>
 
     <group>
@@ -48,7 +55,7 @@
                 <property>fdm/jsbsim/systems/electric/bus[0]/battery-capacity-initial-J</property>
                 <min>0</min>
                 <max>2937600</max>
-                <step>1000</step>  
+                <step>1000</step>
                 <binding>
                     <command>dialog-apply</command>
                 </binding>
@@ -112,9 +119,9 @@
                 <col>5</col>
             </text>
         </group>
-        
+
         <hrule/>
-        
+
         <group>
             <layout>table</layout>
             <text>
@@ -496,9 +503,9 @@
             </text>
         </group>
     </group>
-    
+
     <hrule/>
-    
+
     <group>
         <layout>vbox</layout>
         <group>
