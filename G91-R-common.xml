@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList include="Nasal/fgcamera/fgcamera_cfg.xml">
-    
+
     <sim include="G91-views.xml">
-        
+
         <long-description>The Fiat G.91 was an Italian jet fighter aircraft designed and built by Fiat Aviazione, which later merged into Aeritalia.
-            The G.91 has its origins in the NATO-organised NBMR-1 competition in 1953, which sought a light fighter-bomber "Light Weight Strike Fighter" to be adopted as standard equipment across the air forces of the various NATO nations. 
+            The G.91 has its origins in the NATO-organised NBMR-1 competition in 1953, which sought a light fighter-bomber "Light Weight Strike Fighter" to be adopted as standard equipment across the air forces of the various NATO nations.
         </long-description>
-        <author>Massimiliano Cuccarano (3D Artist), Adriano Bassignana (FDM JSBSim and historical research), Joshua Davidson (Flight Control System and JSBsim), Salvatore De Astis (Developer)</author>
+        <author>Massimiliano Cuccarano (3D Artist), Adriano Bassignana (FDM JSBSim and historical research), Joshua Davidson (Flight Control System and JSBsim), Salvatore De Astis (Developer), Rick Gruber-Riemer (Developer)</author>
         <status>in_progress</status>
         <license>GPL 2</license>
         <rating>
@@ -16,7 +16,7 @@
             <model type="int">4</model>
             <cockpit type="int">4</cockpit>
         </rating>
-        <minimum-fg-version>2019.1</minimum-fg-version>
+        <minimum-fg-version>2024.1</minimum-fg-version>
         <tags>
             <tag>FIAT</tag>
             <tag>single-engine</tag>
@@ -32,19 +32,19 @@
             <tag>jet</tag>
             <tag>single-engine</tag>
         </tags>
-        
+
         <aircraft-version>0.5</aircraft-version>
         <!-- echo 'G91R1B-00.5' | md5sum = 'a2525c6b69ba6d4a4151e819084276a4' frist 6 char: a2525c -> to integer printf "%d" 0xa2525c -->
         <aircraft-id-version>10637916</aircraft-id-version>
         <!-- Parameter necessary to define the full configuration in Single player mode -->
-        
+
         <aircraft-is-singleplayer type="bool">true</aircraft-is-singleplayer>
-        
+
         <sound>
             <audible>true</audible>
             <path>Sounds/G91-sounds.xml</path>
         </sound>
-        
+
         <aircraft-data>
             <path>sim/G91/liveries/active/id</path>
             <path>sim/G91/liveries/active/resolution-set</path>
@@ -68,13 +68,13 @@
             <path>sim/G91/stores/stations/dx/internal/type</path>
             <path>sim/G91/stores/stations/stationSxInternal/typeHardpoint</path>
             <path>sim/G91/stores/stations/stationSxInternal/armyTypeFuse</path>
-            <path>sim/G91/stores/stations/stationSxInternal/armyTypeSpecial</path>  
+            <path>sim/G91/stores/stations/stationSxInternal/armyTypeSpecial</path>
             <path>sim/G91/stores/stations/stationDxInternal/typeHardpoint</path>
             <path>sim/G91/stores/stations/stationDxInternal/armyTypeFuse</path>
             <path>sim/G91/stores/stations/stationDxInternal/armyTypeSpecial</path>
             <path>sim/G91/stores/stations/stationSxExternal/typeHardpoint</path>
             <path>sim/G91/stores/stations/stationSxExternal/armyTypeFuse</path>
-            <path>sim/G91/stores/stations/stationSxExternal/armyTypeSpecial</path>            
+            <path>sim/G91/stores/stations/stationSxExternal/armyTypeSpecial</path>
             <path>sim/G91/stores/stations/stationDxExternal/typeHardpoint</path>
             <path>sim/G91/stores/stations/stationDxExternal/armyTypeFuse</path>
             <path>sim/G91/stores/stations/stationDxExternal/armyTypeSpecial</path>
@@ -85,12 +85,12 @@
             <path>sim/G91/dragchute/door-chute</path>
             <path>sim/G91/dragchute/active</path>
         </aircraft-data>
-        
+
         <submodels>
             <serviceable type="bool">true</serviceable>
             <path>Models/Parts/Stores/Submodels.xml</path>
         </submodels>
-        
+
         <multiplay>
             <generic>
                 <float n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
@@ -216,11 +216,11 @@
         </menubar>
 
         <G91 include="Models/G91_Params.xml"/>
-        
+
     </sim>
-    
+
     <nasal>
-        
+
         <general>
             <file>Nasal/init.nas</file>
             <file>Nasal/menu.nas</file>
@@ -257,15 +257,15 @@
             <file>Models/Parts/Accessories/LEMIR14.nas</file>
 	        <file>Models/Parts/Auxiliaries.nas</file>
         </general>
-        
+
         <canvas_gauges>
             <file>Nasal/set_livery.nas</file>
         </canvas_gauges>
-        
+
         <tyresmoke>
             <file>Nasal/tyresmoke.nas</file>
         </tyresmoke>
-        
+
         <set-gear-down-script>
             <script>
                 if(getprop("/sim/presets/onground")) {
@@ -278,25 +278,25 @@
                 }
             </script>
         </set-gear-down-script>
-        
+
         <test-compositor>
             <script>
                 if(getprop("/sim/rendering/default-compositor") == "Compositor/als") {
                 setprop("sim/G91/models/effects/als",0);
                 } else {
                 setprop("sim/G91/models/effects/als",1);
-                }                
+                }
             </script>
         </test-compositor>
-        
+
     </nasal>
-    
+
     <!-- Key mappings -->
     <input>
         <keyboard>
             <key n="101">
                 <name>e</name>
-                <desc>Gun Trigger</desc> 
+                <desc>Gun Trigger</desc>
                 <binding>
                     <command>property-assign</command>
                     <property>ai/submodels/trigger</property>
@@ -317,7 +317,7 @@
                         <command>property-assign</command>
                         <property>controls/armament/trigger</property>
                         <value>false</value>
-                    </binding> 
+                    </binding>
                 </mod-up>
             </key>
             <key n="67">
@@ -388,7 +388,7 @@
 
         </keyboard>
     </input>
-    
+
     <procedural-lights type="bool">true</procedural-lights>
-    
+
 </PropertyList>
