@@ -186,14 +186,6 @@
                         </binding>
                     </item>
                     <item>
-                        <label> </label>
-                        <binding>
-                            <command>property-assign</command>
-                            <property>sim/G91/menu/command</property>
-                            <value>1</value>
-                        </binding>
-                    </item>
-                    <item>
                         <label>Help</label>
                         <binding>
                             <command>nasal</command>
