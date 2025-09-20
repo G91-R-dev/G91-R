@@ -13,7 +13,7 @@
         <layout>hbox</layout>
         <empty><stretch>true</stretch></empty>
         <text>
-            <label>Testing G91</label>
+            <label>Systems Tests for G.91R</label>
         </text>
         <empty><stretch>true</stretch></empty>
         <button>

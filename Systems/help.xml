@@ -1,20 +1,35 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <PropertyList>
 
-  <title>Fiat G91</title>
-  <line>______________________________________________</line>
-  <key>
-    <name>d</name>
-    <desc>Open/Close canopy</desc>
-  </key>
-  <key>
-    <name>e</name>
-    <desc>Guns fire</desc>
-  </key>
-  <key>
-    <name>S</name>
-    <desc>Colored Smoke</desc>
-  </key>
-  
+	<title>Fiat G.91R</title>
+
+	<!-- see G91-r-common.xml -> keyboard -->
+
+	<key>
+		<name>C</name>
+		<desc>Toggle canopy</desc>
+	</key>
+
+	<key>
+		<name>d</name>
+		<desc>Activate the yaw and pitch damper</desc>
+	</key>
+
+	<key>
+		<name>D</name>
+		<desc>disactivate the yaw and pitch damper</desc>
+	</key>
+
+	<key>
+		<name>e</name>
+		<desc>Guns trigger</desc>
+	</key>
+
+	<key>
+		<name>F5</name>
+		<desc>Toggle drag chute</desc>
+	</key>
+
+	<text>For flaps etc. see also common aircraft keys in the official FG manual (https://flightgear.gitlab.io/getstart/release-2024.1/en/HTML/getstart-ench5.html#keyboard-controls).</text>
 </PropertyList>

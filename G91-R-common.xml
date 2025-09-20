@@ -175,10 +175,10 @@
         <menubar n="0">
             <default n="0">
                 <menu n="100">
-                    <label>Fiat G91</label>
+                    <label>Fiat G.91R</label>
                     <enabled type="bool">true</enabled>
                     <item>
-                        <label>[F1] activate menu</label>
+                        <label>Configuration Dialogs</label>
                         <binding>
                             <command>property-assign</command>
                             <property>sim/G91/menu/command</property>
@@ -186,16 +186,7 @@
                         </binding>
                     </item>
                     <item>
-                        <label>Help</label>
-                        <binding>
-                            <command>nasal</command>
-                            <script>
-                                setprop("sim/G91/menu/menuActive","Help");
-                            </script>
-                        </binding>
-                    </item>
-                    <item>
-                        <label>Test system plane menu</label>
+                        <label>Systems Tests</label>
                         <binding>
                             <command>nasal</command>
                             <script>
@@ -208,6 +199,8 @@
         </menubar>
 
         <G91 include="Models/G91_Params.xml"/>
+
+        <help include="Systems/help.xml" />
 
     </sim>
 
@@ -288,7 +281,7 @@
         <keyboard>
             <key n="101">
                 <name>e</name>
-                <desc>Gun Trigger</desc>
+                <desc>Gun trigger</desc>
                 <binding>
                     <command>property-assign</command>
                     <property>ai/submodels/trigger</property>
@@ -314,7 +307,7 @@
             </key>
             <key n="67">
                 <name>C</name>
-                <desc>Toggle Canopy</desc>
+                <desc>Toggle canopy</desc>
                 <binding>
                     <command>property-assign</command>
                     <property>fdm/jsbsim/systems/manual-switches/cockpit/sw-canopy-togle</property>
@@ -330,7 +323,7 @@
             </key>
             <key n="68">
                 <name>D</name>
-                <desc>Disactivate the dampers</desc>
+                <desc>Disactivate the yaw and pitch dampers</desc>
                 <binding>
                     <command>property-assign</command>
                     <property>fdm/jsbsim/systems/manual-switches/lateral_panel_left/dampers/sw-yaw-damper-togle</property>
@@ -344,7 +337,7 @@
             </key>
             <key n="100">
                 <name>d</name>
-                <desc>Activate the dampers</desc>
+                <desc>Activate the yaw and pitch dampers</desc>
                 <binding>
                     <command>property-assign</command>
                     <property>fdm/jsbsim/systems/manual-switches/lateral_panel_left/dampers/sw-yaw-damper-togle</property>
@@ -356,20 +349,9 @@
                     <value>1</value>
                 </binding>
             </key>
-            <key n="257">
-                <name>F1</name>
-                <desc>Float menu</desc>
-                <repeatable type="bool">false</repeatable>
-                <interval-sec>0.2</interval-sec>
-                <binding>
-                    <command>property-assign</command>
-                    <property>sim/G91/menu/command</property>
-                    <value>1</value>
-                </binding>
-            </key>
             <key n="261">
                 <name>F5</name>
-                <desc>Drag Chute</desc>
+                <desc>Toggle drag chute</desc>
                 <repeatable type="bool">false</repeatable>
                 <interval-sec>0.2</interval-sec>
                 <binding>
