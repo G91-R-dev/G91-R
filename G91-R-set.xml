@@ -9,7 +9,7 @@
 
     <sim>
 
-        <description>Fiat G.91-R (JSBSim)</description>
+        <description>G91-R (JSBSim)</description>
 
         <startup>
             <splash-texture>Splash/splash 20100720.png</splash-texture>
