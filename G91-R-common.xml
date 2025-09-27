@@ -301,6 +301,14 @@
                             <dialog-name>system_tests_dialog</dialog-name>
                         </binding>
                     </item>
+
+                    <item n="15">
+                        <label>Manual (opens in browser)</label>
+                        <binding>
+                            <command>open-browser</command>
+                            <path>Docs/G91-R-FG-manual.pdf</path>
+                        </binding>
+                    </item>
                 </menu>
             </default>
         </menubar>

@@ -31,5 +31,5 @@
 		<desc>Toggle drag chute</desc>
 	</key>
 
-	<text>For flaps etc. see also common aircraft keys in the official FG manual (https://flightgear.gitlab.io/getstart/release-2024.1/en/HTML/getstart-ench5.html#keyboard-controls).</text>
+	<text>The manual is located in the Docs folder - e.g. accessible through the menu G91-R - Manual.</text>
 </PropertyList>

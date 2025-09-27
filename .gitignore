@@ -1,2 +1,5 @@
 *.code-workspace
 *.directory
+
+# Documentation build outputs
+/Docs/manual_rst/build/

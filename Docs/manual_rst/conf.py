@@ -1,0 +1,40 @@
+# Configuration file for the Sphinx documentation builder.
+
+# -- Project information -----------------------------------------------------
+project = 'G91-R'
+copyright = '2025, G91-R Team'
+author = 'Rick Gruber-Riemer'
+release = '0.0.1'
+
+# -- General configuration ---------------------------------------------------
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+]
+
+templates_path = ['_templates']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+source_suffix = '.rst'
+master_doc = 'index'
+
+language = 'en'
+
+pygments_style = 'sphinx'
+
+
+# -- Options for HTML output -------------------------------------------------
+html_theme = 'sphinx_rtd_theme'
+# html_static_path = ['_static']
+htmlhelp_basename = 'G91-Rdoc'
+
+
+# -- Options for rinohtype (direct PDF) output -----------------------------------
+# https://www.mos6581.org/rinohtype/master/sphinx.html
+rinoh_documents = [
+    dict(doc='index', target='G91-R-FG-manual', title='FlightGear G91-R Manual', subtitle='',
+         toctree_only=False, domain_indices=False, template='article')
+]
