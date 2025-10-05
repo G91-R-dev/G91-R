@@ -4,7 +4,7 @@ OBJECT world
 kids 1
 OBJECT poly
 name "vtm_ac_object"
-texture "vtm.png"
+texture "tranbg.png"
 crease 45.000001
 numvert 4
 0 -0.0345 0.0256
