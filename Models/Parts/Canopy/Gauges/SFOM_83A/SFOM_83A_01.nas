@@ -18,7 +18,7 @@ var SCREEN_HEIGHT = 690;
 var RECTICLE_IMG_SIZE = 384; # rela image is 1024*1024
 
 var COLOR_FOREGROUND = [0.75,1,0.25]; # between yellow and green with some white
-var COLOR_BACKGROUND = [0,0.02,0]; # almost black with a bit of green
+var COLOR_BACKGROUND = [0.3,0.3,0.3, 0.0]; # almost black with a bit of green
 
 var GunSight = {
     new: func(_ident) {
@@ -58,7 +58,7 @@ var GunSight = {
         }
 
         gs_obj.gs_canvas.addPlacement({"node": "vtm_ac_object"});
-        #gs_obj.gs_canvas.addPlacement({"texture": "tranbg.png"});
+        #gs_obj.gs_canvas.addPlacement({"node": "Collimator_glass_TargetDOWN"});
         gs_obj.gs_canvas.setColorBackground(COLOR_BACKGROUND);
 
         gs_obj.root = gs_obj.gs_canvas.createGroup("root");
