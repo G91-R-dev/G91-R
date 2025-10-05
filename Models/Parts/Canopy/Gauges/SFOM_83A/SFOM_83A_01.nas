@@ -15,10 +15,11 @@ var FALSE = 0;
 var SCREEN_WIDTH = 512;
 var SCREEN_HEIGHT = 690;
 
-var RECTICLE_IMG_SIZE = 384; # rela image is 1024*1024
+var RECTICLE_WIDTH = 384; # real image is 1024*1024
+var RECTICLE_HEIGHT = 512; # WIDTH * 4/3 because the image is seen in a 45 deg angle
 
 var COLOR_FOREGROUND = [0.75,1,0.25]; # between yellow and green with some white
-var COLOR_BACKGROUND = [0.3,0.3,0.3, 0.0]; # almost black with a bit of green
+var COLOR_BACKGROUND = [1.0,1.0,1.0, 0.0]; # almost black with a bit of green
 
 var GunSight = {
     new: func(_ident) {
@@ -57,8 +58,8 @@ var GunSight = {
             gs_obj.input[name] = props.globals.getNode(gs_obj.input[name], 1);
         }
 
-        gs_obj.gs_canvas.addPlacement({"node": "vtm_ac_object"});
-        #gs_obj.gs_canvas.addPlacement({"node": "Collimator_glass_TargetDOWN"});
+        #gs_obj.gs_canvas.addPlacement({"node": "vtm_ac_object"});
+        gs_obj.gs_canvas.addPlacement({"node": "Collimator_glass_TargetDOWN"});
         gs_obj.gs_canvas.setColorBackground(COLOR_BACKGROUND);
 
         gs_obj.root = gs_obj.gs_canvas.createGroup("root");
@@ -95,7 +96,7 @@ var GunSight = {
         # sfom83A_path = "Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A_03_Cross_1024.png";
         me.reticle_cross = me.reticle_group.createChild("image")
                                            .setFile("Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A_03_Cross_1024.png")
-                                           .setSize(RECTICLE_IMG_SIZE, RECTICLE_IMG_SIZE);
+                                           .setSize(RECTICLE_WIDTH, RECTICLE_HEIGHT);
 
         me.reticle_group.show();
     },
@@ -134,7 +135,7 @@ var GunSight = {
         var me_x = me.xOffset * 10000 + 67;
         var me_y = me.yOffset * (-11100) + me.valButton;
         #print("me_x: "~me_x~" - me_y: "~me_y);
-        me.reticle_group.setTranslation(me_x - RECTICLE_IMG_SIZE/2, me_y - RECTICLE_IMG_SIZE/2);
+        me.reticle_group.setTranslation(me_x - RECTICLE_WIDTH/2, me_y - RECTICLE_HEIGHT/2);
     },
 
     _calcColorCrossSFOM83A: func() {

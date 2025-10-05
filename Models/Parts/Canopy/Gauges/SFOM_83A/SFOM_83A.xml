@@ -47,7 +47,7 @@
 
     <effect>
         <inherits-from>Effects/model-transparent</inherits-from>
-        <object-name>Collimator_glass_TargetDOWN</object-name>
+        <!-- <object-name>Collimator_glass_TargetDOWN</object-name> -->
         <object-name>Collimator_glass02</object-name>
         <object-name>Colimator_Objective01</object-name>
         <object-name>border_glass_target</object-name>
@@ -136,7 +136,7 @@
         </emission>
     </animation>
 
-    <animation>
+    <!-- <animation>
         <type>material</type>
         <object-name>Collimator_glass_TargetDOWN</object-name>
         <transparency>
@@ -148,12 +148,22 @@
             <green-prop>sim/G91/gauge/SFOM_83A/collimator_green</green-prop>
             <blue-prop>sim/G91/gauge/SFOM_83A/collimator_blue</blue-prop>
         </emission>
+    </animation> -->
+
+    <animation>
+        <type>material</type>
+        <object-name>Collimator_glass_TargetDOWN</object-name>
+        <emission>
+            <red> 1 </red>
+            <green> 1 </green>
+            <blue> 1 </blue>
+        </emission>
     </animation>
 
-    <effect>
+    <!-- <effect>
         <inherits-from>Effects/blur</inherits-from>
         <object-name>Collimator_glass_TargetDOWN</object-name>
-    </effect>
+    </effect> -->
 
     <animation>
         <type>material</type>

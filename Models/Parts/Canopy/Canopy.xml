@@ -832,17 +832,6 @@
 
     <!-- Gauges -->
 
-    <!--
-    <model>
-        <path>Models/Parts/Canopy/Gauges/SFOM_83A/vtm.xml</path>
-        <offsets>
-            <x-m>-3.09</x-m>
-            <y-m>-0.20</y-m>
-            <z-m>0.285</z-m>
-        </offsets>
-    </model>
-    -->
-
     <model>
         <path>Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A.xml</path>
         <offsets>
