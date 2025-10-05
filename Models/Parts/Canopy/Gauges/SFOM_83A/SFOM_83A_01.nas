@@ -15,6 +15,8 @@ var FALSE = 0;
 var SCREEN_WIDTH = 512;
 var SCREEN_HEIGHT = 690;
 
+var RECTICLE_IMG_SIZE = 384; # rela image is 1024*1024
+
 var COLOR_FOREGROUND = [0.75,1,0.25]; # between yellow and green with some white
 var COLOR_BACKGROUND = [0,0.02,0]; # almost black with a bit of green
 
@@ -90,21 +92,18 @@ var GunSight = {
     _createReticle: func() {
         me.reticle_group = me.root.createChild("group", "reticle_group");
 
-        me.reticle_cross = me.reticle_group.createChild("path", "reticle_cross")
-                                           .setColor(COLOR_FOREGROUND)
-                                           .moveTo(-50, 0)
-                                           .horiz(100)
-                                           .moveTo(0, -50)
-                                           .vert(100)
-                                           .setStrokeLineWidth(10);
+        # sfom83A_path = "Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A_03_Cross_1024.png";
+        me.reticle_cross = me.reticle_group.createChild("image")
+                                           .setFile("Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A_03_Cross_1024.png")
+                                           .setSize(RECTICLE_IMG_SIZE, RECTICLE_IMG_SIZE);
 
         me.reticle_group.show();
     },
 
     _update: func(noti = nil) {
-        if (noti.FrameCount != 0) {
-            return;
-        }
+        #if (math.mod(noti.FrameCount, 2) > 0) {
+        #    return;
+        #}
 
         if (me.input.view_internal.getValue() == TRUE) {
             me.valButton = me.input.button.getValue();
@@ -135,7 +134,7 @@ var GunSight = {
         var me_x = me.xOffset * 10000 + 67;
         var me_y = me.yOffset * (-11100) + me.valButton;
         #print("me_x: "~me_x~" - me_y: "~me_y);
-        # me.reticle_group.setTranslation(me.xOffset * 10000 + 67, me.yOffset * (-11100) + me.valButton);
+        me.reticle_group.setTranslation(me_x - RECTICLE_IMG_SIZE/2, me_y - RECTICLE_IMG_SIZE/2);
     },
 
     _calcColorCrossSFOM83A: func() {
@@ -169,7 +168,7 @@ var GunSight = {
         me.input.collimator_green.setValue(ambientGreenLight);
         me.input.collimator_blue.setValue(ambientBlueLight);
 
-        me.reticle_cross.setColor(ambientRedLight, ambientGreenLight, ambientBlueLight, whiteLight_sun);
+        me.reticle_cross.setColorFill(ambientRedLight, ambientGreenLight, ambientBlueLight, whiteLight_sun);
     },
 };
 
