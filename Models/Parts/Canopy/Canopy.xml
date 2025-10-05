@@ -584,7 +584,7 @@
             <factor-prop>sim/G91/re_emit/gauge_red_light</factor-prop>
         </emission>
     </animation>
-    
+
     <animation>
         <type>material</type>
         <object-name>F_canopY_ant.006</object-name>
@@ -832,6 +832,17 @@
 
     <!-- Gauges -->
 
+    <!--
+    <model>
+        <path>Models/Parts/Canopy/Gauges/SFOM_83A/vtm.xml</path>
+        <offsets>
+            <x-m>-3.09</x-m>
+            <y-m>-0.20</y-m>
+            <z-m>0.285</z-m>
+        </offsets>
+    </model>
+    -->
+
     <model>
         <path>Models/Parts/Canopy/Gauges/SFOM_83A/SFOM_83A.xml</path>
         <offsets>
@@ -1033,9 +1044,9 @@
             </equals>
         </condition>
     </model>
-    
+
     <!-- Pedals -->
-    
+
     <model>
         <path>Models/Parts/Canopy/Components/Steering_rudder_pedals/Steering_rudder_pedals.xml</path>
         <offsets>

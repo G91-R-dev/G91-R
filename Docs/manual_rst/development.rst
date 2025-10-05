@@ -44,6 +44,23 @@ The following style for titles/sections is used: ``Section conventions⇗ <https
 * L5: Subsubsections ``^^^^`` (below)
 * L6: Paragraphs ``''''`` (below)
 
+
+External Files
+==============
+
+This model is using / tracking files from other modules.
+
+Emesary FrameNotifications
+--------------------------
+
+Last copy taken: 2025-10-05
+
+Files:
+
+* https://github.com/Zaretto/f-14b/blob/release/1.12/Nasal/M_frame_notification.nas: no changes
+* https://github.com/Zaretto/f-14b/blob/release/1.12/Nasal/M_exec.nas: notifications.frameNotification.FrameCount set to ``8`` instead of ``16`` to increase likelyhood of 1 loop per second
+
+
 Various Notes
 =============
 

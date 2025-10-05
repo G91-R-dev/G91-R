@@ -320,6 +320,10 @@
     </sim>
 
     <nasal>
+        <!-- Notifications for Emesary / weapons -->
+        <notifications>
+            <file>Nasal/M_frame_notification.nas</file>
+        </notifications>
 
         <general>
             <file>Nasal/init.nas</file>
@@ -354,7 +358,9 @@
             <file>Nasal/AB-camera/ab-camera.nas</file>
             <file>Models/Parts/Accessories/StandIlluminator.nas</file>
             <file>Models/Parts/Accessories/LEMIR14.nas</file>
-	        <file>Models/Parts/Auxiliaries.nas</file>
+            <file>Models/Parts/Auxiliaries.nas</file>
+
+            <file>Nasal/M_exec.nas</file>
         </general>
 
         <canvas_gauges>
