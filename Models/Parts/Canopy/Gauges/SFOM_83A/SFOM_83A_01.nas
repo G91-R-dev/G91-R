@@ -132,9 +132,8 @@ var GunSight = {
     },
 
     _setCross: func() {
-        var me_x = me.xOffset * 10000 + 67;
+        var me_x = me.xOffset * 10000; #  + 67;
         var me_y = me.yOffset * (-11100) + me.valButton;
-        #print("me_x: "~me_x~" - me_y: "~me_y);
         me.reticle_group.setTranslation(me_x - RECTICLE_WIDTH/2, me_y - RECTICLE_HEIGHT/2);
     },
 
