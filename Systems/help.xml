@@ -7,11 +7,6 @@
 	<!-- see G91-r-common.xml -> keyboard -->
 
 	<key>
-		<name>C</name>
-		<desc>Toggle canopy</desc>
-	</key>
-
-	<key>
 		<name>d</name>
 		<desc>Activate the yaw and pitch damper</desc>
 	</key>
