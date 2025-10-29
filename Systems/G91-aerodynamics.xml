@@ -8,7 +8,7 @@ Changes by Joshua Davidson (it0uchpods) for stability, and fix some reversed sig
 <aerodynamics> 
     
     <property value="0.5812">aero/clb-gain</property>
-    <property value="1.3">aero/pitch-gain</property>
+    <property value="0.95">aero/pitch-gain</property>
     
     <function name="aero/function/ground-effect-factor-lift">
         <description>Change in lift due to ground effect factor</description>
@@ -407,9 +407,9 @@ Changes by Joshua Davidson (it0uchpods) for stability, and fix some reversed sig
         
     </axis>
     
-    <property value="-14.445">aero/constant/Pitch_damp-coefficient</property>
-    <property value="-0.800">aero/constant/Pitch_elevator-coefficient</property>
-    <property value="-9.165">aero/constant/Pitch_alphadot-coefficient</property>
+    <property value="-24.0">aero/constant/Pitch_damp-coefficient</property>
+    <property value="-1.2">aero/constant/Pitch_elevator-coefficient</property>
+    <property value="-15.0">aero/constant/Pitch_alphadot-coefficient</property>
     <property value="-0.01478">aero/constant/Pitch_speedbrake-coefficient</property>
     
     <axis name="PITCH">
