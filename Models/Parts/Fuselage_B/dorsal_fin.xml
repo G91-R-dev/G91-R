@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PropertyList>
+
+    <path>dorsal_fin.ac</path>
+
+    <offsets>
+        <x-m>0.0</x-m>
+        <y-m>0.0</y-m>
+        <z-m>0.78</z-m>
+        <pitch-deg>0.0</pitch-deg>
+    </offsets>
+
+    <animation>
+        <type>select</type>
+        <object-name>dorsal_fin</object-name>
+        <condition>
+            <or>
+                <equals>
+                    <property>sim/G91/liveries/active/id</property>
+                    <value>6</value>
+                </equals>
+                <equals>
+                    <property>sim/G91/liveries/active/id</property>
+                    <value>10</value>
+                </equals>
+            </or>
+        </condition>
+    </animation>
+
+    <effect>
+        <inherits-from>Aircraft/G91-R/Models/Liveries/liveries_001</inherits-from>
+        <object-name>dorsal_fin</object-name>
+    </effect>
+
+</PropertyList>

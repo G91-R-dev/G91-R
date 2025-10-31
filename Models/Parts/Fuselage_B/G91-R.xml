@@ -145,10 +145,6 @@
         <path>Models/Parts/Fuselage_B/Fuselage_B3.xml</path>
     </model>
 
-<model>
-        <path>Models/Parts/Fuselage_B/dorsal_fin.xml</path>
-    </model>
-
     <model>
         <path>Models/Parts/Airbrake/Airbrake.xml</path>
     </model>
