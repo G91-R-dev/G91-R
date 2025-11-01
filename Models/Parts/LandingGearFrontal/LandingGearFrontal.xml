@@ -934,21 +934,32 @@
     </animation>
     
     <!-- Steering -->
-    <animation>
-        <type>rotate</type>
-        <object-name>GearPivot</object-name>
-        <object-name>GearWheel</object-name>
-        <property>sim/G91/gear/unit[0]/nws/</property>
-        <factor>1.0</factor>
-        <axis>
-            <x1-m>  -2.87</x1-m>
-            <y1-m>  0.0</y1-m>
-            <z1-m>  1.0</z1-m>
-            <x2-m>  -2.89963</x2-m>
-            <y2-m>  0.0</y2-m>
-            <z2-m>  -1.0</z2-m>
-        </axis>
-    </animation>
+   <!-- Steering (original behaviour preserved, limited to ±35°) -->
+<animation>
+    <type>rotate</type>
+    <object-name>GearPivot</object-name>
+    <object-name>GearWheel</object-name>
+    <property>sim/G91/gear/unit[0]/nws/</property>
+
+    <!-- Limit rotation to ±35° -->
+    <interpolation>
+        <entry><ind>-70</ind><dep>-35</dep></entry>
+        <entry><ind>-35</ind><dep>-35</dep></entry>
+        <entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>35</ind><dep>35</dep></entry>
+        <entry><ind>70</ind><dep>35</dep></entry>
+    </interpolation>
+
+    <axis>
+        <x1-m>  -2.87</x1-m>
+        <y1-m>  0.0</y1-m>
+        <z1-m>  1.0</z1-m>
+        <x2-m>  -2.89963</x2-m>
+        <y2-m>  0.0</y2-m>
+        <z2-m>  -1.0</z2-m>
+    </axis>
+</animation>
+
     
     
     <!-- Spin  -->
